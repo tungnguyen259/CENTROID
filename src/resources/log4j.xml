@@ -24,14 +24,14 @@
 		</layout>
 	</appender>
 
-	<category name="Test">
+	<category name="HomeScreen">
 		<priority value="all" />
 		<appender-ref ref="console" />
 		<appender-ref ref="logfile" />
 		<appender-ref ref="testng" />
 	</category>
 
-	<category name="demo">
+	<category name="LoginScreen">
 		<priority value="all" />
 		<appender-ref ref="console" />
 		<appender-ref ref="logfile" />
