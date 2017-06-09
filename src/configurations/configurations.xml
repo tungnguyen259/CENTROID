@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
-	<url>https://rainmakerlabs-dev.outsystemscloud.com/DaimlerMex_CMS/</url>
-	<username>tung.nguyen@rainmaker-labs.com</username>
+	<url>http://demo.centroid.rainmaker-labs.com/en/backend</url>
+	<username>demo@rainmaker-labs.com</username>
 	<password>123456</password>
 </configuration>
