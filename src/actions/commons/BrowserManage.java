@@ -21,7 +21,7 @@ public class BrowserManage {
 			driver = new ChromeDriver();
 		} else{
 		      // Path to geckodriver executable
-	        System.setProperty("webdriver.gecko.driver", "C:\\Users\\TungN\\workspace\\SeleniumAdvanceGroup3\\MEX\\libs\\geckodriver.exe");
+	        System.setProperty("webdriver.gecko.driver", "D:\\CENTROID\\CENTROID\\libs\\geckodriver.exe");
 			driver = new FirefoxDriver();
 		}
 		driver.manage().window().maximize();

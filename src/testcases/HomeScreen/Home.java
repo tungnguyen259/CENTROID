@@ -1,6 +1,6 @@
 package testcases.HomeScreen;
 
-public class Home001 {
+public class Home {
 	
 	// other machine
 	// change machine

@@ -3,12 +3,12 @@ package actions.commons;
 public class Constant 
 {
 	public static String url;
-	public static String username;
+	public static String email;
 	public static String password;
 	public static String grid;
 	public static final int longWaitTime = 8;
 	public static final int shortWaitTime = 5;
-	public static final String configFilePath = "src/configurations/configuration.xml";
+	public static final String configFilePath = "src/configurations/configurations.xml";
 	public static final String dataFilePath = "src/configurations/data.xml";
 	public static final String urlMobile = "https://rainmakerlabs.outsystemscloud.com/PreviewInDevices/?IsMobilePreview=True&DeviceName=Smartphone&URL=/DaimlerMEXMobile/HomeScreen?_ts=636269020166138833";
 

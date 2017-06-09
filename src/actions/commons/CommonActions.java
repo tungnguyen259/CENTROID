@@ -32,7 +32,7 @@ public class CommonActions {
 	
 	public void getAutomationCofiguration(){
 		Constant.url = getConfiguration("url");
-		Constant.username = getConfiguration("username");
+		Constant.email = getConfiguration("email");
 		Constant.password = getConfiguration("password");
 		//Constant.grid = getConfiguration("grid");
 	}
