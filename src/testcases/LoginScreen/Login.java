@@ -7,6 +7,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import actions.commons.AbstractTest;
 import actions.commons.Constant;
+import actions.pages.HomePage;
 import actions.pages.LoginPage;
 
 @Listeners(actions.configure.TestListeners.class)
@@ -22,6 +23,7 @@ public class Login extends AbstractTest{
 public void Login001 () {
 	  
 	loginPageObject = new LoginPage(driver);
+	homePageObject = new HomePage(driver);
 	  
 	log.info("Step 1: Open Centroid Webside");
 	navigateBrowser(driver, Constant.url);
@@ -31,9 +33,14 @@ public void Login001 () {
 	loginPageObject.login(Constant.email, Constant.password, "No");
 	
 	log.info("VP: User is able to login successfully");
+	verifyTrue(homePageObject.checkPageDisplay(driver, pages));
+	verifyTrue(homePageObject.checkSuccessfulMessage(message));
 	
 }
   
   private WebDriver driver;
   private LoginPage loginPageObject;
+  private HomePage homePageObject;
+  private String pages = "Dashboard";
+  private String message ="Successfully logged in";
 }
