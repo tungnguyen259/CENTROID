@@ -1,10 +1,7 @@
 package LoginScreen;
 
 import org.openqa.selenium.WebDriver;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Listeners;
-import org.testng.annotations.Parameters;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 import commons.AbstractTest;
 import commons.CommonActions;
 import commons.Constant;
@@ -19,7 +16,7 @@ public class Login extends AbstractTest{
 
   public void setup (String browser) {
 	  driver = openBrowser(browser);  
-	  dashboardPage = CommonActions.getCommonObject().getDataset("TC_Login", "pageName");
+	  dashboardPage = CommonActions.getCommonObject().getDataset("TC_Login", "dashboardPage");
 	  loginSuccessfulMessage = CommonActions.getCommonObject().getDataset("TC_Login", "loginSuccessfulMessage");
 	  invalidUsername = CommonActions.getCommonObject().getDataset("TC_Login", "invalidUsername");
 	  invalidPassword = CommonActions.getCommonObject().getDataset("TC_Login", "invalidPassword");
@@ -61,7 +58,15 @@ public void TC_Login002 () {
 	log.info("VP: Successful Message displays");
 	verifyTrue(homePageObject.checkSuccessfulMessage(loginSuccessfulMessage));
 	
+	log.info("Post Condition: Logout");
+	homePageObject.logout(driver);
+	
 }
+  
+	@AfterClass(alwaysRun = true)
+	public void tearDown() {
+		closeBrowser(driver);
+	}
   
   private WebDriver driver;
   private LoginPage loginPageObject;
