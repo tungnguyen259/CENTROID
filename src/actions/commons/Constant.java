@@ -1,4 +1,4 @@
-package actions.commons;
+package commons;
 
 public class Constant 
 {

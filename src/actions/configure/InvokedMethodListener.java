@@ -1,4 +1,4 @@
-package actions.configure;
+package configure;
 
 import org.testng.IInvokedMethod;
 import org.testng.IInvokedMethodListener;

@@ -1,4 +1,4 @@
-package actions.commons;
+package commons;
 
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;

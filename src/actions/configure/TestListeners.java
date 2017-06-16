@@ -1,10 +1,10 @@
-package actions.configure;
+package configure;
 
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
+import commons.CommonActions;
 
-import actions.commons.*;
 
 public class TestListeners implements ITestListener{
 

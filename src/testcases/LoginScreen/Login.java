@@ -1,16 +1,16 @@
-package testcases.LoginScreen;
+package LoginScreen;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-import actions.commons.AbstractTest;
-import actions.commons.Constant;
-import actions.pages.HomePage;
-import actions.pages.LoginPage;
+import commons.AbstractTest;
+import commons.Constant;
+import pages.HomePage;
+import pages.LoginPage;
 
-@Listeners(actions.configure.TestListeners.class)
+@Listeners(configure.TestListeners.class)
 public class Login extends AbstractTest{
 
 @Parameters({"browser"})
@@ -20,7 +20,7 @@ public class Login extends AbstractTest{
   }
   
   @Test (description = "Verify user is albe to login with valid information")
-public void Login001 () {
+public void TC_Login001 () {
 	  
 	loginPageObject = new LoginPage(driver);
 	homePageObject = new HomePage(driver);
@@ -34,6 +34,7 @@ public void Login001 () {
 	
 	log.info("VP: User is able to login successfully");
 	verifyTrue(homePageObject.checkPageDisplay(driver, pages));
+	log.info("VP: Successful Message displays");
 	verifyTrue(homePageObject.checkSuccessfulMessage(message));
 	
 }

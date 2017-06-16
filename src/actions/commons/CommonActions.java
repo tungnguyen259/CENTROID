@@ -1,4 +1,4 @@
-package actions.commons;
+package commons;
 
 import java.io.File;
 import java.io.FileInputStream;

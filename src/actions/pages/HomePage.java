@@ -1,4 +1,4 @@
-package actions.pages;
+package pages;
 
 import org.openqa.selenium.WebDriver;
 
@@ -15,7 +15,7 @@ public class HomePage extends AbstractPage{
 	 */
 	public boolean checkSuccessfulMessage(String message)
 	{
-		return findDynamicControl(driver, interfaces.HomePage.successfulMessage, message).isDisplayed();
+		return findDynamicControl(driver, Centroid.HomePage.successfulMessage, message).isDisplayed();
 	}
 	
 	// Check successful message display correctly

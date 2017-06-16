@@ -1,4 +1,4 @@
-package testcases.HomeScreen;
+package HomeScreen;
 
 public class Home {
 	
