@@ -26,7 +26,7 @@ public class TestListeners implements ITestListener{
 
 	@Override
 	public void onTestFailure(ITestResult arg0) {
-		CommonActions.getCommonObject().takeScreenShot(driver, "fail");
+		CommonActions.getCommonObject().takeScreenShot("fail");
 		
 	}
 
