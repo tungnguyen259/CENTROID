@@ -1,4 +1,4 @@
-package HomeScreen;
+package homescreen;
 
 public class Home {
 	

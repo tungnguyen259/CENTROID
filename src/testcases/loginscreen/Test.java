@@ -1,4 +1,4 @@
-package LoginScreen;
+package loginscreen;
 
 import commons.AbstractTest;
 
