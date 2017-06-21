@@ -1,5 +1,4 @@
 package Centroid;
-import org.openqa.selenium.By;
 
 public class HomePage {
 

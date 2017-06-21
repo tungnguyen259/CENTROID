@@ -24,7 +24,7 @@ public class Login extends AbstractTest{
 	  loginErrorMessage = CommonActions.getCommonObject().getDataset("TC_Login", "loginErrorMessage");
   }
   
-  @Test (description = "Verify user is unalbe to login with invalid information")
+  @Test (description = "Verify user is unable to login with invalid information")
 public void TC_Login001 () {
 	  
 	loginPageObject = new LoginPage(driver);
@@ -45,7 +45,7 @@ public void TC_Login001 () {
 	
 }
   
-  @Test (description = "Verify user is albe to login with valid information")
+  @Test (description = "Verify user is able to login with valid information")
 public void TC_Login002 () {
 	    
 	log.info("Step 1: Open Centroid Webside");
@@ -59,10 +59,21 @@ public void TC_Login002 () {
 	log.info("VP: Successful Message displays");
 	verifyTrue(homePageObject.checkSuccessfulMessage(loginSuccessfulMessage));
 	
-	log.info("Post Condition: Logout");
-	homePageObject.logout(driver);
-	
 }
+  
+  @Test (description = "Verify user is able to logout")
+public void TC_Login003 () {
+	  
+		log.info("Step 1: Open Centroid Webside");
+		log.info("Step 2: Sign in to system by valid email and password");
+		log.info("Step 3: Sign Out");
+		homePageObject.logout(driver);
+		
+		log.info("VP: User is able to login successfully");
+		verifyTrue(loginPageObject.checkSigninPageDisplay());
+		
+  }
+  
   
 	@AfterClass(alwaysRun = true)
 	public void tearDown() {

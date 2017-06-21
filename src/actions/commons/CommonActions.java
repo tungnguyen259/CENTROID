@@ -14,7 +14,6 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
 import org.w3c.dom.Attr;
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
@@ -115,7 +114,7 @@ public class CommonActions {
 		  String filePath = "test-output\\";
 		  File scrFile = ((TakesScreenshot) Constant.driver).getScreenshotAs(OutputType.FILE);
 		  try {
-		   FileUtils.copyFile(scrFile, new File(filePath + imagename+ ".png"));
+		   FileUtils.copyFile(scrFile, new File(filePath + imagename+ "_" + getRandomString() + ".png"));
 		   System.out.println("Saved " + imagename + ".png" + " screenshot in " + filePath);
 		  } catch (IOException e) {
 		   e.printStackTrace();

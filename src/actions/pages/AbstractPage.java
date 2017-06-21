@@ -43,8 +43,8 @@ public class AbstractPage extends commons.AutomationAction {
 	public void logout (WebDriver driver)
 	{	
 		click(driver, Centroid.AbstractPage.drdUser);
-		sleep (1);
-		click(driver, Centroid.AbstractPage.drdUser);
+		sleep (2);
+		click(driver, Centroid.AbstractPage.btnLogout);
 	}	
 
 }
