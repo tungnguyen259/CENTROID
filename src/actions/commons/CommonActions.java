@@ -111,9 +111,9 @@ public class CommonActions {
 	 * @param driver
 	 * @param imagename
 	 */
-	public void takeScreenShot(WebDriver driver,String imagename) {
+	public void takeScreenShot(String imagename) {
 		  String filePath = "test-output\\";
-		  File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+		  File scrFile = ((TakesScreenshot) Constant.driver).getScreenshotAs(OutputType.FILE);
 		  try {
 		   FileUtils.copyFile(scrFile, new File(filePath + imagename+ ".png"));
 		   System.out.println("Saved " + imagename + ".png" + " screenshot in " + filePath);

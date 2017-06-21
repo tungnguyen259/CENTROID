@@ -1,5 +1,7 @@
 package commons;
 
+import org.openqa.selenium.WebDriver;
+
 public class Constant 
 {
 	public static String url;
@@ -11,7 +13,8 @@ public class Constant
 	public static final String configFilePath = "src/configurations/configurations.xml";
 	public static final String dataFilePath = "src/configurations/data.xml";
 	public static final String urlMobile = "https://rainmakerlabs.outsystemscloud.com/PreviewInDevices/?IsMobilePreview=True&DeviceName=Smartphone&URL=/DaimlerMEXMobile/HomeScreen?_ts=636269020166138833";
-
+	public static WebDriver driver = null; 
+	
 	//=================button============================================
 	public static final String saveButton = "Save";
 	public static final String saveNewButton = "Save&New";
@@ -19,18 +22,6 @@ public class Constant
 	public static final String deleteButton = "Delete";
 	public static final String helpButton = "Help";
 	public static final String cancelButton = "Cancel";
-	public static final String publishButton = "Publish";
-	public static final String unPublishButton = "Unpublish";
-	public static final String closeButton = "Close";
-	public static final String trashButton = "Trash";
-	public static final String newButton = "New";
-	public static final String saveAsCopyButton = "SaveAsCopy";
-	public static final String editButton = "Edit";
-	public static final String checkinButton = "Checkin";
-	public static final String archiveButton = "Archive";
-	public static final String processButton = "Process";
-	public static final String batchButton = "Batch";
-	public static final String helpPageTitle="Joomla! Help";
 	
 	
 	//===================driver===============================================

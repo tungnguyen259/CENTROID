@@ -26,6 +26,7 @@ public class BrowserManage {
 		}
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		Constant.driver = driver;
 		return driver;
 	}
 
