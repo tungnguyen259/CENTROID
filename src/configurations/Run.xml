@@ -4,12 +4,12 @@
 	<parameter name="browser" value="Firefox" />
 	
 <listeners>
-<listener class-name="actions.configure.TestListeners" />
+<listener class-name="configure.TestListeners" />
 </listeners>
  
 	<test name="Test">
 		<classes>
-		<class name="testcases.LoginScreen.Login" />	
+		<class name="loginscreen.Login_TC_001" />	
 		</classes>
 	</test>
 </suite>
