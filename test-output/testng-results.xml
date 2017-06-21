@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[2017-06-16 16:48:00,695 INFO  Login - Step 1: Open Centroid Webside
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-06-16 16:48:02,380 INFO  Login - Step 2: Enter valid email and password
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-06-16 16:48:02,380 INFO  Login - Step 3: Click on 'Sign In' button
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-06-16 16:48:03,503 INFO  Login - VP: User is still on Signin Page
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-06-16 16:48:03,548 INFO  Login - ===PASSED===
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-06-16 16:48:03,550 INFO  Login - VP: Error Message displays
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-06-16 16:48:04,412 INFO  Login - ===PASSED===
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-06-16 16:48:04,415 INFO  Login - Step 1: Open Centroid Webside
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-06-16 16:48:04,415 INFO  Login - Step 2: Enter valid email and password
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-06-16 16:48:04,416 INFO  Login - Step 3: Click on 'Sign In' button
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-06-16 16:48:04,744 INFO  Login - VP: User is able to login successfully
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-06-16 16:48:06,992 INFO  Login - ===PASSED===
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-06-16 16:48:06,993 INFO  Login - VP: Successful Message displays
+]]>
+    </line>
+    <line>
+      <![CDATA[2017-06-16 16:48:07,109 INFO  Login - ===PASSED===
+]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14086" started-at="2017-06-16T09:47:55Z" finished-at="2017-06-16T09:48:09Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14086" started-at="2017-06-16T09:47:55Z" finished-at="2017-06-16T09:48:09Z">
+      <class name="LoginScreen.Login">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:LoginScreen.Login@47db50c5]" name="setup" is-config="true" duration-ms="5531" started-at="2017-06-16T16:47:55Z" finished-at="2017-06-16T16:48:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC_Login001()[pri:0, instance:LoginScreen.Login@47db50c5]" name="TC_Login001" duration-ms="3725" started-at="2017-06-16T16:48:00Z" description="Verify user is unalbe to login with invalid information" finished-at="2017-06-16T16:48:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[2017-06-16 16:48:00,695 INFO  Login - Step 1: Open Centroid Webside
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-06-16 16:48:02,380 INFO  Login - Step 2: Enter valid email and password
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-06-16 16:48:02,380 INFO  Login - Step 3: Click on 'Sign In' button
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-06-16 16:48:03,503 INFO  Login - VP: User is still on Signin Page
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-06-16 16:48:03,548 INFO  Login - ===PASSED===
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-06-16 16:48:03,550 INFO  Login - VP: Error Message displays
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-06-16 16:48:04,412 INFO  Login - ===PASSED===
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_Login001 -->
+        <test-method status="PASS" signature="TC_Login002()[pri:0, instance:LoginScreen.Login@47db50c5]" name="TC_Login002" duration-ms="4808" started-at="2017-06-16T16:48:04Z" description="Verify user is albe to login with valid information" finished-at="2017-06-16T16:48:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[2017-06-16 16:48:04,415 INFO  Login - Step 1: Open Centroid Webside
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-06-16 16:48:04,415 INFO  Login - Step 2: Enter valid email and password
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-06-16 16:48:04,416 INFO  Login - Step 3: Click on 'Sign In' button
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-06-16 16:48:04,744 INFO  Login - VP: User is able to login successfully
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-06-16 16:48:06,992 INFO  Login - ===PASSED===
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-06-16 16:48:06,993 INFO  Login - VP: Successful Message displays
+]]>
+            </line>
+            <line>
+              <![CDATA[2017-06-16 16:48:07,109 INFO  Login - ===PASSED===
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_Login002 -->
+      </class> <!-- LoginScreen.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

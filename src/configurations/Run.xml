@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Centroid">
+	<parameter name="browser" value="Firefox" />
+	
+<listeners>
+<listener class-name="actions.configure.TestListeners" />
+</listeners>
+ 
+	<test name="Test">
+		<classes>
+		<class name="testcases.LoginScreen.Login" />	
+		</classes>
+	</test>
+</suite>

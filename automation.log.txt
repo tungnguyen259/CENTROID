@@ -1,0 +1,14 @@
+2017-06-16 16:48:00,695 INFO  [LoginScreen.Login] - Step 1: Open Centroid Webside
+2017-06-16 16:48:02,380 INFO  [LoginScreen.Login] - Step 2: Enter valid email and password
+2017-06-16 16:48:02,380 INFO  [LoginScreen.Login] - Step 3: Click on 'Sign In' button
+2017-06-16 16:48:03,503 INFO  [LoginScreen.Login] - VP: User is still on Signin Page
+2017-06-16 16:48:03,548 INFO  [LoginScreen.Login] - ===PASSED===
+2017-06-16 16:48:03,550 INFO  [LoginScreen.Login] - VP: Error Message displays
+2017-06-16 16:48:04,412 INFO  [LoginScreen.Login] - ===PASSED===
+2017-06-16 16:48:04,415 INFO  [LoginScreen.Login] - Step 1: Open Centroid Webside
+2017-06-16 16:48:04,415 INFO  [LoginScreen.Login] - Step 2: Enter valid email and password
+2017-06-16 16:48:04,416 INFO  [LoginScreen.Login] - Step 3: Click on 'Sign In' button
+2017-06-16 16:48:04,744 INFO  [LoginScreen.Login] - VP: User is able to login successfully
+2017-06-16 16:48:06,992 INFO  [LoginScreen.Login] - ===PASSED===
+2017-06-16 16:48:06,993 INFO  [LoginScreen.Login] - VP: Successful Message displays
+2017-06-16 16:48:07,109 INFO  [LoginScreen.Login] - ===PASSED===
