@@ -1,6 +1,6 @@
 package homescreen;
 
-public class Home {
+public class Home_TC_001 {
 	
 	// other machine
 	// change machine

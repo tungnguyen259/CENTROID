@@ -10,7 +10,7 @@ import pages.HomePage;
 import pages.LoginPage;
 
 @Listeners(configure.TestListeners.class)
-public class Login extends AbstractTest{
+public class Login_TC_001 extends AbstractTest{
 
 @Parameters({"browser"})
 @BeforeClass(alwaysRun = true)  
