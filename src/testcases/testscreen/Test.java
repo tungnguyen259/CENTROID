@@ -1,4 +1,4 @@
-package test;
+package testscreen;
 
 import commons.AbstractTest;
 
