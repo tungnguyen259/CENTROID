@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Centroid]">
+<suite name="Failed suite [Default suite]">
   <parameter name="browser" value="Firefox"/>
-  <listeners>
-    <listener class-name="configure.TestListeners"/>
-  </listeners>
-  <test name="Test(failed)">
+  <test name="Default test(failed)">
     <classes>
       <class name="loginscreen.Login_TC_001">
         <methods>
@@ -17,5 +14,5 @@
         </methods>
       </class> <!-- loginscreen.Login_TC_001 -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Centroid] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

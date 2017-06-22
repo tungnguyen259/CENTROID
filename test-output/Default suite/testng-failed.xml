@@ -4,13 +4,15 @@
   <parameter name="browser" value="Firefox"/>
   <test name="Default test(failed)">
     <classes>
-      <class name="LoginScreen.Login">
+      <class name="loginscreen.Login_TC_001">
         <methods>
           <include name="tearDown"/>
-          <include name="TC_Login003"/>
           <include name="setup"/>
+          <include name="TC_Login001"/>
+          <include name="TC_Login002"/>
+          <include name="TC_Login003"/>
         </methods>
-      </class> <!-- LoginScreen.Login -->
+      </class> <!-- loginscreen.Login_TC_001 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -5,7 +5,15 @@
 		<loginSuccessfulMessage>Successfully logged in</loginSuccessfulMessage>
 		<invalidUsername>tungnguyen259@gmail.com</invalidUsername>
 		<invalidPassword>123456</invalidPassword>
-		<loginErrorMessage>Invalid username or password.</loginErrorMessage>
-		
+		<loginErrorMessage>Invalid username or password.</loginErrorMessage>	
 	</testmodule>
+	
+		<testmodule name="TC_Users">
+		<dashboardPage>Dashboard</dashboardPage>
+		<loginSuccessfulMessage>Successfully logged in</loginSuccessfulMessage>
+		<invalidUsername>tungnguyen259@gmail.com</invalidUsername>
+		<invalidPassword>123456</invalidPassword>
+		<loginErrorMessage>Invalid username or password.</loginErrorMessage>	
+	</testmodule>
+	
 </testmodules>

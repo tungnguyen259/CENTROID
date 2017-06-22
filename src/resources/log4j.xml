@@ -24,27 +24,27 @@
 		</layout>
 	</appender>
 
-	<category name="HomeScreen">
+	<category name="homescreen">
 		<priority value="all" />
 		<appender-ref ref="console" />
 		<appender-ref ref="logfile" />
 		<appender-ref ref="testng" />
 	</category>
 
-	<category name="LoginScreen">
+	<category name="loginscreen">
 		<priority value="all" />
 		<appender-ref ref="console" />
 		<appender-ref ref="logfile" />
 		<appender-ref ref="testng" />
 	</category>
 	
-	<category name="article">
+	<category name="userscreen">
 		<priority value="all" />
 		<appender-ref ref="console" />
 		<appender-ref ref="logfile" />
 		<appender-ref ref="testng" />
 	</category>
-	<category name="bannerclient">
+	<category name="testscreen">
 		<priority value="all" />
 		<appender-ref ref="console" />
 		<appender-ref ref="logfile" />
