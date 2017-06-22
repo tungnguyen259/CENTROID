@@ -43,7 +43,7 @@ public void TC_Users001 () {
 	homePageObject.selectMenuItem(driver, "Users", "Users");
 	
 	log.info("Step 5: Create new user with valid information");
-	homePageObject.selectMenuItem(driver, "Users", "Users");
+	PageObject.selectMenuItem(driver, "Users", "Users");
 	
 	log.info("VP: Error Message displays");
 	verifyTrue(loginPageObject.checkErrorLoginMessage(loginErrorMessage));

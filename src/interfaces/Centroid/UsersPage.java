@@ -2,7 +2,7 @@ package Centroid;
 
 import org.openqa.selenium.By;
 
-public class UsersScreen {
+public class UsersPage {
 
 	public static By tabData = By.xpath("//a[text()='Data']");
 	public static By tabRoles = By.xpath("//a[text()='Roles']");

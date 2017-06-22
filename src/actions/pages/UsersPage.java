@@ -14,11 +14,11 @@ public class UsersPage extends AbstractPage{
 	
 	public void createNewUser (String firstName, String lastName, String email, String userName, String password, String passWordConfirmation, String phone, String country, String timeZone, String status, String roles, String group)
 	{	
-		click(driver, Centroid.UsersScreen.btnNewUser);
+		click(driver, Centroid.UsersPage.btnNewUser);
 		enterNewUserData(firstName, lastName, email, userName, password, passWordConfirmation, phone, country, timeZone, status);
 		selectNewUserRoles(roles);
 		selectNewUserGroup(group);
-		click(driver, Centroid.UsersScreen.btnCreate);
+		click(driver, Centroid.UsersPage.btnCreate);
 	}
 	
 	/*
@@ -27,18 +27,18 @@ public class UsersPage extends AbstractPage{
 	
 	public void enterNewUserData (String firstName, String lastName, String email, String userName, String password, String passwordConfirmation, String phone, String country, String timeZone, String status)
 	{
-		click(driver, Centroid.UsersScreen.tabData);
-		type(driver, Centroid.UsersScreen.txtFirstName, firstName);
-		type(driver, Centroid.UsersScreen.txtLastName, lastName);
-		type(driver, Centroid.UsersScreen.txtEmail, email);
-		type(driver, Centroid.UsersScreen.txtUserName, userName);
-		type(driver, Centroid.UsersScreen.txtPassword, password);
-		type(driver, Centroid.UsersScreen.txtPasswordConfirmation, passwordConfirmation);
-		type(driver, Centroid.UsersScreen.txtPhone, phone);
+		click(driver, Centroid.UsersPage.tabData);
+		type(driver, Centroid.UsersPage.txtFirstName, firstName);
+		type(driver, Centroid.UsersPage.txtLastName, lastName);
+		type(driver, Centroid.UsersPage.txtEmail, email);
+		type(driver, Centroid.UsersPage.txtUserName, userName);
+		type(driver, Centroid.UsersPage.txtPassword, password);
+		type(driver, Centroid.UsersPage.txtPasswordConfirmation, passwordConfirmation);
+		type(driver, Centroid.UsersPage.txtPhone, phone);
 		
-		selectDropdownItem(driver, Centroid.UsersScreen.cbbCountry, Centroid.UsersScreen.countryItem, country);
-		selectDropdownItem(driver, Centroid.UsersScreen.cbbStatus, Centroid.UsersScreen.statusItem, status);
-		selectDropdownItem(driver, Centroid.UsersScreen.cbbTimeZone, Centroid.UsersScreen.timeZoneItem, timeZone);
+		selectDropdownItem(driver, Centroid.UsersPage.cbbCountry, Centroid.UsersPage.countryItem, country);
+		selectDropdownItem(driver, Centroid.UsersPage.cbbStatus, Centroid.UsersPage.statusItem, status);
+		selectDropdownItem(driver, Centroid.UsersPage.cbbTimeZone, Centroid.UsersPage.timeZoneItem, timeZone);
 	}
 	
 	/*
@@ -47,8 +47,8 @@ public class UsersPage extends AbstractPage{
 	
 	public void selectNewUserRoles (String roles)
 	{
-		click(driver, Centroid.UsersScreen.tabRoles);
-		findDynamicControl(driver, Centroid.UsersScreen.rolesItem, roles).click();
+		click(driver, Centroid.UsersPage.tabRoles);
+		findDynamicControl(driver, Centroid.UsersPage.rolesItem, roles).click();
 	}
 	
 	/*
@@ -57,7 +57,7 @@ public class UsersPage extends AbstractPage{
 	
 	public void selectNewUserGroup (String group)
 	{
-		click(driver, Centroid.UsersScreen.tabGroups);
+		click(driver, Centroid.UsersPage.tabGroups);
 		
 	}
 	
