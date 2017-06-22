@@ -1,19 +1,5 @@
-2017-06-22 11:23:27,298 INFO  [loginscreen.Login_TC_001] - Step 1: Open Centroid Webside
-2017-06-22 11:23:29,033 INFO  [loginscreen.Login_TC_001] - Step 2: Enter valid email and password
-2017-06-22 11:23:29,033 INFO  [loginscreen.Login_TC_001] - Step 3: Click on 'Sign In' button
-2017-06-22 11:23:30,234 INFO  [loginscreen.Login_TC_001] - VP: User is still on Signin Page
-2017-06-22 11:23:30,276 INFO  [loginscreen.Login_TC_001] - ===PASSED===
-2017-06-22 11:23:30,277 INFO  [loginscreen.Login_TC_001] - VP: Error Message displays
-2017-06-22 11:23:31,190 INFO  [loginscreen.Login_TC_001] - ===PASSED===
-2017-06-22 11:23:31,194 INFO  [loginscreen.Login_TC_001] - Step 1: Open Centroid Webside
-2017-06-22 11:23:31,194 INFO  [loginscreen.Login_TC_001] - Step 2: Enter valid email and password
-2017-06-22 11:23:31,194 INFO  [loginscreen.Login_TC_001] - Step 3: Click on 'Sign In' button
-2017-06-22 11:23:31,602 INFO  [loginscreen.Login_TC_001] - VP: User is able to login successfully
-2017-06-22 11:23:33,864 INFO  [loginscreen.Login_TC_001] - ===PASSED===
-2017-06-22 11:23:33,864 INFO  [loginscreen.Login_TC_001] - VP: Successful Message displays
-2017-06-22 11:23:33,931 INFO  [loginscreen.Login_TC_001] - ===PASSED===
-2017-06-22 11:23:33,934 INFO  [loginscreen.Login_TC_001] - Step 1: Open Centroid Webside
-2017-06-22 11:23:33,935 INFO  [loginscreen.Login_TC_001] - Step 2: Sign in to system by valid email and password
-2017-06-22 11:23:33,935 INFO  [loginscreen.Login_TC_001] - Step 3: Sign Out
-2017-06-22 11:23:36,252 INFO  [loginscreen.Login_TC_001] - VP: User is able to login successfully
-2017-06-22 11:23:37,206 INFO  [loginscreen.Login_TC_001] - ===PASSED===
+2017-06-22 14:30:45,423 INFO  [userscreen.User_TC_001] - Step 1: Open Centroid Webside
+2017-06-22 14:30:47,283 INFO  [userscreen.User_TC_001] - Step 2: Enter valid email and password
+2017-06-22 14:30:47,283 INFO  [userscreen.User_TC_001] - Step 3: Click on 'Sign In' button
+2017-06-22 14:30:48,825 INFO  [userscreen.User_TC_001] - Step 4: Enter Users screen
+2017-06-22 14:30:54,267 INFO  [userscreen.User_TC_001] - Step 5: Create new user with valid information

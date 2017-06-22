@@ -1,89 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
     <line>
-      <![CDATA[2017-06-22 11:23:27,298 INFO  Login_TC_001 - Step 1: Open Centroid Webside
+      <![CDATA[2017-06-22 14:30:45,423 INFO  User_TC_001 - Step 1: Open Centroid Webside
 ]]>
     </line>
     <line>
-      <![CDATA[2017-06-22 11:23:29,033 INFO  Login_TC_001 - Step 2: Enter valid email and password
+      <![CDATA[2017-06-22 14:30:47,283 INFO  User_TC_001 - Step 2: Enter valid email and password
 ]]>
     </line>
     <line>
-      <![CDATA[2017-06-22 11:23:29,033 INFO  Login_TC_001 - Step 3: Click on 'Sign In' button
+      <![CDATA[2017-06-22 14:30:47,283 INFO  User_TC_001 - Step 3: Click on 'Sign In' button
 ]]>
     </line>
     <line>
-      <![CDATA[2017-06-22 11:23:30,234 INFO  Login_TC_001 - VP: User is still on Signin Page
+      <![CDATA[2017-06-22 14:30:48,825 INFO  User_TC_001 - Step 4: Enter Users screen
 ]]>
     </line>
     <line>
-      <![CDATA[2017-06-22 11:23:30,276 INFO  Login_TC_001 - ===PASSED===
-]]>
-    </line>
-    <line>
-      <![CDATA[2017-06-22 11:23:30,277 INFO  Login_TC_001 - VP: Error Message displays
-]]>
-    </line>
-    <line>
-      <![CDATA[2017-06-22 11:23:31,190 INFO  Login_TC_001 - ===PASSED===
-]]>
-    </line>
-    <line>
-      <![CDATA[2017-06-22 11:23:31,194 INFO  Login_TC_001 - Step 1: Open Centroid Webside
-]]>
-    </line>
-    <line>
-      <![CDATA[2017-06-22 11:23:31,194 INFO  Login_TC_001 - Step 2: Enter valid email and password
-]]>
-    </line>
-    <line>
-      <![CDATA[2017-06-22 11:23:31,194 INFO  Login_TC_001 - Step 3: Click on 'Sign In' button
-]]>
-    </line>
-    <line>
-      <![CDATA[2017-06-22 11:23:31,602 INFO  Login_TC_001 - VP: User is able to login successfully
-]]>
-    </line>
-    <line>
-      <![CDATA[2017-06-22 11:23:33,864 INFO  Login_TC_001 - ===PASSED===
-]]>
-    </line>
-    <line>
-      <![CDATA[2017-06-22 11:23:33,864 INFO  Login_TC_001 - VP: Successful Message displays
-]]>
-    </line>
-    <line>
-      <![CDATA[2017-06-22 11:23:33,931 INFO  Login_TC_001 - ===PASSED===
-]]>
-    </line>
-    <line>
-      <![CDATA[2017-06-22 11:23:33,934 INFO  Login_TC_001 - Step 1: Open Centroid Webside
-]]>
-    </line>
-    <line>
-      <![CDATA[2017-06-22 11:23:33,935 INFO  Login_TC_001 - Step 2: Sign in to system by valid email and password
-]]>
-    </line>
-    <line>
-      <![CDATA[2017-06-22 11:23:33,935 INFO  Login_TC_001 - Step 3: Sign Out
-]]>
-    </line>
-    <line>
-      <![CDATA[2017-06-22 11:23:36,252 INFO  Login_TC_001 - VP: User is able to login successfully
-]]>
-    </line>
-    <line>
-      <![CDATA[2017-06-22 11:23:37,206 INFO  Login_TC_001 - ===PASSED===
+      <![CDATA[2017-06-22 14:30:54,267 INFO  User_TC_001 - Step 5: Create new user with valid information
 ]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16609" started-at="2017-06-22T04:23:21Z" finished-at="2017-06-22T04:23:37Z">
+  <suite name="Default suite" duration-ms="25929" started-at="2017-06-22T07:30:39Z" finished-at="2017-06-22T07:31:05Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16609" started-at="2017-06-22T04:23:21Z" finished-at="2017-06-22T04:23:37Z">
-      <class name="loginscreen.Login_TC_001">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:loginscreen.Login_TC_001@4d1b0d2a]" name="setup" is-config="true" duration-ms="6149" started-at="2017-06-22T11:23:21Z" finished-at="2017-06-22T11:23:27Z">
+    <test name="Default test" duration-ms="25929" started-at="2017-06-22T07:30:39Z" finished-at="2017-06-22T07:31:05Z">
+      <class name="userscreen.User_TC_001">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:userscreen.User_TC_001@4d1b0d2a]" name="setup" is-config="true" duration-ms="5828" started-at="2017-06-22T14:30:39Z" finished-at="2017-06-22T14:30:45Z">
           <params>
             <param index="0">
               <value>
@@ -94,99 +38,87 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="TC_Login001()[pri:0, instance:loginscreen.Login_TC_001@4d1b0d2a]" name="TC_Login001" duration-ms="3899" started-at="2017-06-22T11:23:27Z" description="Verify user is unable to login with invalid information" finished-at="2017-06-22T11:23:31Z">
+        <test-method status="FAIL" signature="TC_Users001()[pri:0, instance:userscreen.User_TC_001@4d1b0d2a]" name="TC_Users001" duration-ms="19404" started-at="2017-06-22T14:30:45Z" description="Verify User is able to create new users" finished-at="2017-06-22T14:31:04Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //a[text()='New User'] (tried for 8 second(s) with 500 MILLISECONDS interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //a[text()='New User'] (tried for 8 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at commons.AutomationAction.waitForControl(AutomationAction.java:139)
+	at commons.AutomationAction.click(AutomationAction.java:38)
+	at pages.UsersPage.createNewUser(UsersPage.java:17)
+	at userscreen.User_TC_001.TC_Users001(User_TC_001.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //a[text()='New User']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'THANHTRITRAN', ip: '192.168.1.40', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:883)
+	at java.util.Optional.orElseThrow(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 28 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
             <line>
-              <![CDATA[2017-06-22 11:23:27,298 INFO  Login_TC_001 - Step 1: Open Centroid Webside
+              <![CDATA[2017-06-22 14:30:45,423 INFO  User_TC_001 - Step 1: Open Centroid Webside
 ]]>
             </line>
             <line>
-              <![CDATA[2017-06-22 11:23:29,033 INFO  Login_TC_001 - Step 2: Enter valid email and password
+              <![CDATA[2017-06-22 14:30:47,283 INFO  User_TC_001 - Step 2: Enter valid email and password
 ]]>
             </line>
             <line>
-              <![CDATA[2017-06-22 11:23:29,033 INFO  Login_TC_001 - Step 3: Click on 'Sign In' button
+              <![CDATA[2017-06-22 14:30:47,283 INFO  User_TC_001 - Step 3: Click on 'Sign In' button
 ]]>
             </line>
             <line>
-              <![CDATA[2017-06-22 11:23:30,234 INFO  Login_TC_001 - VP: User is still on Signin Page
+              <![CDATA[2017-06-22 14:30:48,825 INFO  User_TC_001 - Step 4: Enter Users screen
 ]]>
             </line>
             <line>
-              <![CDATA[2017-06-22 11:23:30,276 INFO  Login_TC_001 - ===PASSED===
-]]>
-            </line>
-            <line>
-              <![CDATA[2017-06-22 11:23:30,277 INFO  Login_TC_001 - VP: Error Message displays
-]]>
-            </line>
-            <line>
-              <![CDATA[2017-06-22 11:23:31,190 INFO  Login_TC_001 - ===PASSED===
+              <![CDATA[2017-06-22 14:30:54,267 INFO  User_TC_001 - Step 5: Create new user with valid information
 ]]>
             </line>
           </reporter-output>
-        </test-method> <!-- TC_Login001 -->
-        <test-method status="PASS" signature="TC_Login002()[pri:0, instance:loginscreen.Login_TC_001@4d1b0d2a]" name="TC_Login002" duration-ms="2739" started-at="2017-06-22T11:23:31Z" description="Verify user is able to login with valid information" finished-at="2017-06-22T11:23:33Z">
-          <reporter-output>
-            <line>
-              <![CDATA[2017-06-22 11:23:31,194 INFO  Login_TC_001 - Step 1: Open Centroid Webside
-]]>
-            </line>
-            <line>
-              <![CDATA[2017-06-22 11:23:31,194 INFO  Login_TC_001 - Step 2: Enter valid email and password
-]]>
-            </line>
-            <line>
-              <![CDATA[2017-06-22 11:23:31,194 INFO  Login_TC_001 - Step 3: Click on 'Sign In' button
-]]>
-            </line>
-            <line>
-              <![CDATA[2017-06-22 11:23:31,602 INFO  Login_TC_001 - VP: User is able to login successfully
-]]>
-            </line>
-            <line>
-              <![CDATA[2017-06-22 11:23:33,864 INFO  Login_TC_001 - ===PASSED===
-]]>
-            </line>
-            <line>
-              <![CDATA[2017-06-22 11:23:33,864 INFO  Login_TC_001 - VP: Successful Message displays
-]]>
-            </line>
-            <line>
-              <![CDATA[2017-06-22 11:23:33,931 INFO  Login_TC_001 - ===PASSED===
-]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- TC_Login002 -->
-        <test-method status="PASS" signature="TC_Login003()[pri:0, instance:loginscreen.Login_TC_001@4d1b0d2a]" name="TC_Login003" duration-ms="3273" started-at="2017-06-22T11:23:33Z" description="Verify user is able to logout" finished-at="2017-06-22T11:23:37Z">
-          <reporter-output>
-            <line>
-              <![CDATA[2017-06-22 11:23:33,934 INFO  Login_TC_001 - Step 1: Open Centroid Webside
-]]>
-            </line>
-            <line>
-              <![CDATA[2017-06-22 11:23:33,935 INFO  Login_TC_001 - Step 2: Sign in to system by valid email and password
-]]>
-            </line>
-            <line>
-              <![CDATA[2017-06-22 11:23:33,935 INFO  Login_TC_001 - Step 3: Sign Out
-]]>
-            </line>
-            <line>
-              <![CDATA[2017-06-22 11:23:36,252 INFO  Login_TC_001 - VP: User is able to login successfully
-]]>
-            </line>
-            <line>
-              <![CDATA[2017-06-22 11:23:37,206 INFO  Login_TC_001 - ===PASSED===
-]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- TC_Login003 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:loginscreen.Login_TC_001@4d1b0d2a]" name="tearDown" is-config="true" duration-ms="525" started-at="2017-06-22T11:23:37Z" finished-at="2017-06-22T11:23:37Z">
+        </test-method> <!-- TC_Users001 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:userscreen.User_TC_001@4d1b0d2a]" name="tearDown" is-config="true" duration-ms="513" started-at="2017-06-22T14:31:04Z" finished-at="2017-06-22T14:31:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- loginscreen.Login_TC_001 -->
+      </class> <!-- userscreen.User_TC_001 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

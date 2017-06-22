@@ -7,7 +7,8 @@ public class AbstractPage {
 	public static By btnLogout = By.xpath("//a[@class='btn btn-default btn-flat' and text()='Sign out']");
 	
 	//Dynamic control
-	public static String menuItems = ("//span[text()='%s']");
+	public static String menuItems = ("//a[@href='#']/span[text()='%s']");
+	public static String subMenuItems = ("//span[text()='%s']");
 	public static String titlePage = ("//h1[contains(text(),'%s')]");
 
 }

@@ -13,7 +13,7 @@ public class UsersPage {
 	public static By txtUserName = By.xpath("//input[@id='username']");
 	public static By txtPassword = By.xpath("//input[@id='password']");
 	public static By txtPasswordConfirmation = By.xpath("//input[@id='password_confirmation']");
-	public static By txtPhone = By.xpath("///input[@id='phone_number']");
+	public static By txtPhone = By.xpath("//input[@id='phone_number']");
 	public static By cbbCountry = By.xpath("//select[@id='country_id']");
 	public static By cbbTimeZone = By.xpath("//select[@id='timezone_id']");
 	public static By cbbStatus = By.xpath("//select[@id='status']");
