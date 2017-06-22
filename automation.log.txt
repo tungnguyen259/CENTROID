@@ -1,0 +1,5 @@
+2017-06-22 14:30:45,423 INFO  [userscreen.User_TC_001] - Step 1: Open Centroid Webside
+2017-06-22 14:30:47,283 INFO  [userscreen.User_TC_001] - Step 2: Enter valid email and password
+2017-06-22 14:30:47,283 INFO  [userscreen.User_TC_001] - Step 3: Click on 'Sign In' button
+2017-06-22 14:30:48,825 INFO  [userscreen.User_TC_001] - Step 4: Enter Users screen
+2017-06-22 14:30:54,267 INFO  [userscreen.User_TC_001] - Step 5: Create new user with valid information

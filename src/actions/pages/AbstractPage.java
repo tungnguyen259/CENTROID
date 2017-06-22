@@ -14,13 +14,11 @@ public class AbstractPage extends commons.AutomationAction {
 	{
 		for (int i = 0; i < 2; i++) {
 			if (i == 0) {
-//		sleep(3);
-//		click(driver, By.xpath(String.format(interfaces.AbstractPage.menuItems, "item")));
 		sleep(2);
 		click(driver, By.xpath(String.format(Centroid.AbstractPage.menuItems, item)));
 		sleep(2);
 			} else
-		click(driver, By.xpath(String.format(Centroid.AbstractPage.menuItems, subItem)));
+		click(driver, By.xpath(String.format(Centroid.AbstractPage.subMenuItems, subItem)));
 		}
 	}	
 	
