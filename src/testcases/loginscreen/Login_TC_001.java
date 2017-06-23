@@ -25,8 +25,7 @@ public class Login_TC_001 extends AbstractTest{
   }
   
   @Test (description = "Verify user is unable to login with invalid information")
-public void TC_Login001 () {
-	  
+public void TC_Login001 () {	  
 	loginPageObject = new LoginPage(driver);
 	homePageObject = new HomePage(driver);
 	  
@@ -41,13 +40,11 @@ public void TC_Login001 () {
 	verifyTrue(loginPageObject.checkSigninPageDisplay());
 	
 	log.info("VP: Error Message displays");
-	verifyTrue(loginPageObject.checkErrorLoginMessage(loginErrorMessage));
-	
+	verifyTrue(loginPageObject.checkErrorLoginMessage(loginErrorMessage));	
 }
   
   @Test (description = "Verify user is able to login with valid information")
-public void TC_Login002 () {
-	    
+public void TC_Login002 () {	    
 	log.info("Step 1: Open Centroid Webside");
 	log.info("Step 2: Enter valid email and password");
 	log.info("Step 3: Click on 'Sign In' button");
@@ -58,20 +55,17 @@ public void TC_Login002 () {
 	
 	log.info("VP: Successful Message displays");
 	verifyTrue(homePageObject.checkSuccessfulMessage(loginSuccessfulMessage));
-	
 }
   
   @Test (description = "Verify user is able to logout")
-public void TC_Login003 () {
-	  
+public void TC_Login003 () {	  
 		log.info("Step 1: Open Centroid Webside");
 		log.info("Step 2: Sign in to system by valid email and password");
 		log.info("Step 3: Sign Out");
 		homePageObject.logout(driver);
 		
 		log.info("VP: Verify Sign in screen displays");
-		verifyTrue(loginPageObject.checkSigninPageDisplay());
-		
+		verifyTrue(loginPageObject.checkSigninPageDisplay());	
   }
     
 	@AfterClass(alwaysRun = true)

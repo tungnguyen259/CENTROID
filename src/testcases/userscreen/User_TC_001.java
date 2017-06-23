@@ -35,8 +35,7 @@ public class User_TC_001 extends AbstractTest{
   }
   
   @Test (description = "Verify User is able to create new users")
-public void TC_Users001 () {
-	  
+public void TC_Users001 () { 
 	loginPageObject = new LoginPage(driver);
 	homePageObject = new HomePage(driver);
 	usersPageObject = new UsersPage(driver);
@@ -59,12 +58,10 @@ public void TC_Users001 () {
 	
 	log.info("VP: Check account is created");
 	verifyTrue(	usersPageObject.checkUserHasJustCreated(firstName, lastName, email, status, roles));
-	
 }
   
   @Test (description = "Verify User is able to search with any information")
-public void TC_Users002 () {
-	  
+public void TC_Users002 () {  
 	log.info("Step 1: Open Centroid Webside");
 	log.info("Step 2: Enter valid email and password");
 	log.info("Step 3: Click on 'Sign In' button");	
@@ -77,8 +74,7 @@ public void TC_Users002 () {
 }
   
   @Test (description = "Verify User is able to delete an user")
-public void TC_Users003 () {
-	  
+public void TC_Users003 () {	  
 	log.info("Step 1: Open Centroid Webside");
 	log.info("Step 2: Enter valid email and password");
 	log.info("Step 3: Click on 'Sign In' button");	
@@ -113,6 +109,5 @@ private String timeZone;
 private String status;
 private String roles;
 private String group;
-
 }
 
