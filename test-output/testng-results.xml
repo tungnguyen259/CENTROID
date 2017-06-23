@@ -2,180 +2,180 @@
 <testng-results skipped="0" failed="0" total="6" passed="6">
   <reporter-output>
     <line>
-      <![CDATA[2017-06-23 17:54:38,930 INFO  Login_TC_001 - Step 1: Open Centroid Webside
+      <![CDATA[2017-06-23 17:59:50,817 INFO  Login_TC_001 - Step 1: Open Centroid Webside
 ]]>
     </line>
     <line>
-      <![CDATA[2017-06-23 17:54:40,577 INFO  Login_TC_001 - Step 2: Enter valid email and password
+      <![CDATA[2017-06-23 17:59:52,354 INFO  Login_TC_001 - Step 2: Enter valid email and password
 ]]>
     </line>
     <line>
-      <![CDATA[2017-06-23 17:54:40,577 INFO  Login_TC_001 - Step 3: Click on 'Sign In' button
+      <![CDATA[2017-06-23 17:59:52,354 INFO  Login_TC_001 - Step 3: Click on 'Sign In' button
 ]]>
     </line>
     <line>
-      <![CDATA[2017-06-23 17:54:41,823 INFO  Login_TC_001 - VP: User is still on Signin Page
+      <![CDATA[2017-06-23 17:59:53,323 INFO  Login_TC_001 - VP: User is still on Signin Page
 ]]>
     </line>
     <line>
-      <![CDATA[2017-06-23 17:54:41,863 INFO  Login_TC_001 - ===PASSED===
+      <![CDATA[2017-06-23 17:59:53,370 INFO  Login_TC_001 - ===PASSED===
 ]]>
     </line>
     <line>
-      <![CDATA[2017-06-23 17:54:41,865 INFO  Login_TC_001 - VP: Error Message displays
+      <![CDATA[2017-06-23 17:59:53,371 INFO  Login_TC_001 - VP: Error Message displays
 ]]>
     </line>
     <line>
-      <![CDATA[2017-06-23 17:54:42,644 INFO  Login_TC_001 - ===PASSED===
+      <![CDATA[2017-06-23 17:59:54,168 INFO  Login_TC_001 - ===PASSED===
 ]]>
     </line>
     <line>
-      <![CDATA[2017-06-23 17:54:42,647 INFO  Login_TC_001 - Step 1: Open Centroid Webside
+      <![CDATA[2017-06-23 17:59:54,172 INFO  Login_TC_001 - Step 1: Open Centroid Webside
 ]]>
     </line>
     <line>
-      <![CDATA[2017-06-23 17:54:42,647 INFO  Login_TC_001 - Step 2: Enter valid email and password
+      <![CDATA[2017-06-23 17:59:54,172 INFO  Login_TC_001 - Step 2: Enter valid email and password
 ]]>
     </line>
     <line>
-      <![CDATA[2017-06-23 17:54:42,647 INFO  Login_TC_001 - Step 3: Click on 'Sign In' button
+      <![CDATA[2017-06-23 17:59:54,172 INFO  Login_TC_001 - Step 3: Click on 'Sign In' button
 ]]>
     </line>
     <line>
-      <![CDATA[2017-06-23 17:54:42,964 INFO  Login_TC_001 - VP: User is able to login successfully
+      <![CDATA[2017-06-23 17:59:54,481 INFO  Login_TC_001 - VP: User is able to login successfully
 ]]>
     </line>
     <line>
-      <![CDATA[2017-06-23 17:54:45,158 INFO  Login_TC_001 - ===PASSED===
+      <![CDATA[2017-06-23 17:59:56,406 INFO  Login_TC_001 - ===PASSED===
 ]]>
     </line>
     <line>
-      <![CDATA[2017-06-23 17:54:45,158 INFO  Login_TC_001 - VP: Successful Message displays
+      <![CDATA[2017-06-23 17:59:56,406 INFO  Login_TC_001 - VP: Successful Message displays
 ]]>
     </line>
     <line>
-      <![CDATA[2017-06-23 17:54:45,204 INFO  Login_TC_001 - ===PASSED===
+      <![CDATA[2017-06-23 17:59:56,460 INFO  Login_TC_001 - ===PASSED===
 ]]>
     </line>
     <line>
-      <![CDATA[2017-06-23 17:54:45,207 INFO  Login_TC_001 - Step 1: Open Centroid Webside
+      <![CDATA[2017-06-23 17:59:56,462 INFO  Login_TC_001 - Step 1: Open Centroid Webside
 ]]>
     </line>
     <line>
-      <![CDATA[2017-06-23 17:54:45,207 INFO  Login_TC_001 - Step 2: Sign in to system by valid email and password
+      <![CDATA[2017-06-23 17:59:56,462 INFO  Login_TC_001 - Step 2: Sign in to system by valid email and password
 ]]>
     </line>
     <line>
-      <![CDATA[2017-06-23 17:54:45,207 INFO  Login_TC_001 - Step 3: Sign Out
+      <![CDATA[2017-06-23 17:59:56,462 INFO  Login_TC_001 - Step 3: Sign Out
 ]]>
     </line>
     <line>
-      <![CDATA[2017-06-23 17:54:47,465 INFO  Login_TC_001 - VP: User is able to login successfully
+      <![CDATA[2017-06-23 17:59:58,851 INFO  Login_TC_001 - VP: Verify Sign in screen displays
 ]]>
     </line>
     <line>
-      <![CDATA[2017-06-23 17:54:48,351 INFO  Login_TC_001 - ===PASSED===
+      <![CDATA[2017-06-23 17:59:59,977 INFO  Login_TC_001 - ===PASSED===
 ]]>
     </line>
     <line>
-      <![CDATA[2017-06-23 17:54:54,238 INFO  User_TC_001 - Step 1: Open Centroid Webside
+      <![CDATA[2017-06-23 18:00:05,752 INFO  User_TC_001 - Step 1: Open Centroid Webside
 ]]>
     </line>
     <line>
-      <![CDATA[2017-06-23 17:54:56,062 INFO  User_TC_001 - Step 2: Enter valid email and password
+      <![CDATA[2017-06-23 18:00:08,831 INFO  User_TC_001 - Step 2: Enter valid email and password
 ]]>
     </line>
     <line>
-      <![CDATA[2017-06-23 17:54:56,063 INFO  User_TC_001 - Step 3: Click on 'Sign In' button
+      <![CDATA[2017-06-23 18:00:08,831 INFO  User_TC_001 - Step 3: Click on 'Sign In' button
 ]]>
     </line>
     <line>
-      <![CDATA[2017-06-23 17:54:57,036 INFO  User_TC_001 - Step 4: Enter Users screen
+      <![CDATA[2017-06-23 18:00:09,875 INFO  User_TC_001 - Step 4: Enter Users screen
 ]]>
     </line>
     <line>
-      <![CDATA[2017-06-23 17:55:02,309 INFO  User_TC_001 - Step 5: Create new user with valid information
+      <![CDATA[2017-06-23 18:00:15,141 INFO  User_TC_001 - Step 5: Create new user with valid information
 ]]>
     </line>
     <line>
-      <![CDATA[2017-06-23 17:55:06,839 INFO  User_TC_001 - VP: Successful message displays
+      <![CDATA[2017-06-23 18:00:19,043 INFO  User_TC_001 - VP: Successful message displays
 ]]>
     </line>
     <line>
-      <![CDATA[2017-06-23 17:55:08,210 INFO  User_TC_001 - ===PASSED===
+      <![CDATA[2017-06-23 18:00:20,473 INFO  User_TC_001 - ===PASSED===
 ]]>
     </line>
     <line>
-      <![CDATA[2017-06-23 17:55:08,210 INFO  User_TC_001 - VP: Check account is created
+      <![CDATA[2017-06-23 18:00:20,473 INFO  User_TC_001 - VP: Check account is created
 ]]>
     </line>
     <line>
-      <![CDATA[2017-06-23 17:55:10,671 INFO  User_TC_001 - ===PASSED===
+      <![CDATA[2017-06-23 18:00:22,940 INFO  User_TC_001 - ===PASSED===
 ]]>
     </line>
     <line>
-      <![CDATA[2017-06-23 17:55:10,673 INFO  User_TC_001 - Step 1: Open Centroid Webside
+      <![CDATA[2017-06-23 18:00:22,942 INFO  User_TC_001 - Step 1: Open Centroid Webside
 ]]>
     </line>
     <line>
-      <![CDATA[2017-06-23 17:55:10,673 INFO  User_TC_001 - Step 2: Enter valid email and password
+      <![CDATA[2017-06-23 18:00:22,943 INFO  User_TC_001 - Step 2: Enter valid email and password
 ]]>
     </line>
     <line>
-      <![CDATA[2017-06-23 17:55:10,673 INFO  User_TC_001 - Step 3: Click on 'Sign In' button
+      <![CDATA[2017-06-23 18:00:22,943 INFO  User_TC_001 - Step 3: Click on 'Sign In' button
 ]]>
     </line>
     <line>
-      <![CDATA[2017-06-23 17:55:10,673 INFO  User_TC_001 - Step 4: Enter Users screen
+      <![CDATA[2017-06-23 18:00:22,943 INFO  User_TC_001 - Step 4: Enter Users screen
 ]]>
     </line>
     <line>
-      <![CDATA[2017-06-23 17:55:10,673 INFO  User_TC_001 - Step 5: Serach any user
+      <![CDATA[2017-06-23 18:00:22,943 INFO  User_TC_001 - Step 5: Serach any user
 ]]>
     </line>
     <line>
-      <![CDATA[2017-06-23 17:55:12,864 INFO  User_TC_001 - VP: Check user data displays correctly
+      <![CDATA[2017-06-23 18:00:25,132 INFO  User_TC_001 - VP: Check user data displays correctly
 ]]>
     </line>
     <line>
-      <![CDATA[2017-06-23 17:55:15,123 INFO  User_TC_001 - ===PASSED===
+      <![CDATA[2017-06-23 18:00:27,416 INFO  User_TC_001 - ===PASSED===
 ]]>
     </line>
     <line>
-      <![CDATA[2017-06-23 17:55:15,126 INFO  User_TC_001 - Step 1: Open Centroid Webside
+      <![CDATA[2017-06-23 18:00:27,419 INFO  User_TC_001 - Step 1: Open Centroid Webside
 ]]>
     </line>
     <line>
-      <![CDATA[2017-06-23 17:55:15,126 INFO  User_TC_001 - Step 2: Enter valid email and password
+      <![CDATA[2017-06-23 18:00:27,419 INFO  User_TC_001 - Step 2: Enter valid email and password
 ]]>
     </line>
     <line>
-      <![CDATA[2017-06-23 17:55:15,126 INFO  User_TC_001 - Step 3: Click on 'Sign In' button
+      <![CDATA[2017-06-23 18:00:27,419 INFO  User_TC_001 - Step 3: Click on 'Sign In' button
 ]]>
     </line>
     <line>
-      <![CDATA[2017-06-23 17:55:15,126 INFO  User_TC_001 - Step 4: Enter Users screen
+      <![CDATA[2017-06-23 18:00:27,419 INFO  User_TC_001 - Step 4: Enter Users screen
 ]]>
     </line>
     <line>
-      <![CDATA[2017-06-23 17:55:15,126 INFO  User_TC_001 - Step 5: Delete any user
+      <![CDATA[2017-06-23 18:00:27,419 INFO  User_TC_001 - Step 5: Delete any user
 ]]>
     </line>
     <line>
-      <![CDATA[2017-06-23 17:55:20,134 INFO  User_TC_001 - VP: Check user data is not exist in user table
+      <![CDATA[2017-06-23 18:00:32,415 INFO  User_TC_001 - VP: Check user data is not exist in user table
 ]]>
     </line>
     <line>
-      <![CDATA[2017-06-23 17:55:22,441 INFO  User_TC_001 - ===PASSED===
+      <![CDATA[2017-06-23 18:00:34,917 INFO  User_TC_001 - ===PASSED===
 ]]>
     </line>
   </reporter-output>
-  <suite name="Centroid" duration-ms="49703" started-at="2017-06-23T10:54:33Z" finished-at="2017-06-23T10:55:22Z">
+  <suite name="Centroid" duration-ms="50517" started-at="2017-06-23T10:59:44Z" finished-at="2017-06-23T11:00:35Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="49703" started-at="2017-06-23T10:54:33Z" finished-at="2017-06-23T10:55:22Z">
+    <test name="Test" duration-ms="50517" started-at="2017-06-23T10:59:44Z" finished-at="2017-06-23T11:00:35Z">
       <class name="userscreen.User_TC_001">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:userscreen.User_TC_001@27d415d9]" name="setup" is-config="true" duration-ms="5319" started-at="2017-06-23T17:54:48Z" finished-at="2017-06-23T17:54:54Z">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:userscreen.User_TC_001@27d415d9]" name="setup" is-config="true" duration-ms="5142" started-at="2017-06-23T18:00:00Z" finished-at="2017-06-23T18:00:05Z">
           <params>
             <param index="0">
               <value>
@@ -186,117 +186,117 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="TC_Users001()[pri:0, instance:userscreen.User_TC_001@27d415d9]" name="TC_Users001" duration-ms="16438" started-at="2017-06-23T17:54:54Z" description="Verify User is able to create new users" finished-at="2017-06-23T17:55:10Z">
+        <test-method status="PASS" signature="TC_Users001()[pri:0, instance:userscreen.User_TC_001@27d415d9]" name="TC_Users001" duration-ms="17189" started-at="2017-06-23T18:00:05Z" description="Verify User is able to create new users" finished-at="2017-06-23T18:00:22Z">
           <reporter-output>
             <line>
-              <![CDATA[2017-06-23 17:54:54,238 INFO  User_TC_001 - Step 1: Open Centroid Webside
+              <![CDATA[2017-06-23 18:00:05,752 INFO  User_TC_001 - Step 1: Open Centroid Webside
 ]]>
             </line>
             <line>
-              <![CDATA[2017-06-23 17:54:56,062 INFO  User_TC_001 - Step 2: Enter valid email and password
+              <![CDATA[2017-06-23 18:00:08,831 INFO  User_TC_001 - Step 2: Enter valid email and password
 ]]>
             </line>
             <line>
-              <![CDATA[2017-06-23 17:54:56,063 INFO  User_TC_001 - Step 3: Click on 'Sign In' button
+              <![CDATA[2017-06-23 18:00:08,831 INFO  User_TC_001 - Step 3: Click on 'Sign In' button
 ]]>
             </line>
             <line>
-              <![CDATA[2017-06-23 17:54:57,036 INFO  User_TC_001 - Step 4: Enter Users screen
+              <![CDATA[2017-06-23 18:00:09,875 INFO  User_TC_001 - Step 4: Enter Users screen
 ]]>
             </line>
             <line>
-              <![CDATA[2017-06-23 17:55:02,309 INFO  User_TC_001 - Step 5: Create new user with valid information
+              <![CDATA[2017-06-23 18:00:15,141 INFO  User_TC_001 - Step 5: Create new user with valid information
 ]]>
             </line>
             <line>
-              <![CDATA[2017-06-23 17:55:06,839 INFO  User_TC_001 - VP: Successful message displays
+              <![CDATA[2017-06-23 18:00:19,043 INFO  User_TC_001 - VP: Successful message displays
 ]]>
             </line>
             <line>
-              <![CDATA[2017-06-23 17:55:08,210 INFO  User_TC_001 - ===PASSED===
+              <![CDATA[2017-06-23 18:00:20,473 INFO  User_TC_001 - ===PASSED===
 ]]>
             </line>
             <line>
-              <![CDATA[2017-06-23 17:55:08,210 INFO  User_TC_001 - VP: Check account is created
+              <![CDATA[2017-06-23 18:00:20,473 INFO  User_TC_001 - VP: Check account is created
 ]]>
             </line>
             <line>
-              <![CDATA[2017-06-23 17:55:10,671 INFO  User_TC_001 - ===PASSED===
+              <![CDATA[2017-06-23 18:00:22,940 INFO  User_TC_001 - ===PASSED===
 ]]>
             </line>
           </reporter-output>
         </test-method> <!-- TC_Users001 -->
-        <test-method status="PASS" signature="TC_Users002()[pri:0, instance:userscreen.User_TC_001@27d415d9]" name="TC_Users002" duration-ms="4451" started-at="2017-06-23T17:55:10Z" description="Verify User is able to search with any information" finished-at="2017-06-23T17:55:15Z">
+        <test-method status="PASS" signature="TC_Users002()[pri:0, instance:userscreen.User_TC_001@27d415d9]" name="TC_Users002" duration-ms="4476" started-at="2017-06-23T18:00:22Z" description="Verify User is able to search with any information" finished-at="2017-06-23T18:00:27Z">
           <reporter-output>
             <line>
-              <![CDATA[2017-06-23 17:55:10,673 INFO  User_TC_001 - Step 1: Open Centroid Webside
+              <![CDATA[2017-06-23 18:00:22,942 INFO  User_TC_001 - Step 1: Open Centroid Webside
 ]]>
             </line>
             <line>
-              <![CDATA[2017-06-23 17:55:10,673 INFO  User_TC_001 - Step 2: Enter valid email and password
+              <![CDATA[2017-06-23 18:00:22,943 INFO  User_TC_001 - Step 2: Enter valid email and password
 ]]>
             </line>
             <line>
-              <![CDATA[2017-06-23 17:55:10,673 INFO  User_TC_001 - Step 3: Click on 'Sign In' button
+              <![CDATA[2017-06-23 18:00:22,943 INFO  User_TC_001 - Step 3: Click on 'Sign In' button
 ]]>
             </line>
             <line>
-              <![CDATA[2017-06-23 17:55:10,673 INFO  User_TC_001 - Step 4: Enter Users screen
+              <![CDATA[2017-06-23 18:00:22,943 INFO  User_TC_001 - Step 4: Enter Users screen
 ]]>
             </line>
             <line>
-              <![CDATA[2017-06-23 17:55:10,673 INFO  User_TC_001 - Step 5: Serach any user
+              <![CDATA[2017-06-23 18:00:22,943 INFO  User_TC_001 - Step 5: Serach any user
 ]]>
             </line>
             <line>
-              <![CDATA[2017-06-23 17:55:12,864 INFO  User_TC_001 - VP: Check user data displays correctly
+              <![CDATA[2017-06-23 18:00:25,132 INFO  User_TC_001 - VP: Check user data displays correctly
 ]]>
             </line>
             <line>
-              <![CDATA[2017-06-23 17:55:15,123 INFO  User_TC_001 - ===PASSED===
+              <![CDATA[2017-06-23 18:00:27,416 INFO  User_TC_001 - ===PASSED===
 ]]>
             </line>
           </reporter-output>
         </test-method> <!-- TC_Users002 -->
-        <test-method status="PASS" signature="TC_Users003()[pri:0, instance:userscreen.User_TC_001@27d415d9]" name="TC_Users003" duration-ms="7316" started-at="2017-06-23T17:55:15Z" description="Verify User is able to delete an user" finished-at="2017-06-23T17:55:22Z">
+        <test-method status="PASS" signature="TC_Users003()[pri:0, instance:userscreen.User_TC_001@27d415d9]" name="TC_Users003" duration-ms="7499" started-at="2017-06-23T18:00:27Z" description="Verify User is able to delete an user" finished-at="2017-06-23T18:00:34Z">
           <reporter-output>
             <line>
-              <![CDATA[2017-06-23 17:55:15,126 INFO  User_TC_001 - Step 1: Open Centroid Webside
+              <![CDATA[2017-06-23 18:00:27,419 INFO  User_TC_001 - Step 1: Open Centroid Webside
 ]]>
             </line>
             <line>
-              <![CDATA[2017-06-23 17:55:15,126 INFO  User_TC_001 - Step 2: Enter valid email and password
+              <![CDATA[2017-06-23 18:00:27,419 INFO  User_TC_001 - Step 2: Enter valid email and password
 ]]>
             </line>
             <line>
-              <![CDATA[2017-06-23 17:55:15,126 INFO  User_TC_001 - Step 3: Click on 'Sign In' button
+              <![CDATA[2017-06-23 18:00:27,419 INFO  User_TC_001 - Step 3: Click on 'Sign In' button
 ]]>
             </line>
             <line>
-              <![CDATA[2017-06-23 17:55:15,126 INFO  User_TC_001 - Step 4: Enter Users screen
+              <![CDATA[2017-06-23 18:00:27,419 INFO  User_TC_001 - Step 4: Enter Users screen
 ]]>
             </line>
             <line>
-              <![CDATA[2017-06-23 17:55:15,126 INFO  User_TC_001 - Step 5: Delete any user
+              <![CDATA[2017-06-23 18:00:27,419 INFO  User_TC_001 - Step 5: Delete any user
 ]]>
             </line>
             <line>
-              <![CDATA[2017-06-23 17:55:20,134 INFO  User_TC_001 - VP: Check user data is not exist in user table
+              <![CDATA[2017-06-23 18:00:32,415 INFO  User_TC_001 - VP: Check user data is not exist in user table
 ]]>
             </line>
             <line>
-              <![CDATA[2017-06-23 17:55:22,441 INFO  User_TC_001 - ===PASSED===
+              <![CDATA[2017-06-23 18:00:34,917 INFO  User_TC_001 - ===PASSED===
 ]]>
             </line>
           </reporter-output>
         </test-method> <!-- TC_Users003 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:userscreen.User_TC_001@27d415d9]" name="tearDown" is-config="true" duration-ms="438" started-at="2017-06-23T17:55:22Z" finished-at="2017-06-23T17:55:22Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:userscreen.User_TC_001@27d415d9]" name="tearDown" is-config="true" duration-ms="350" started-at="2017-06-23T18:00:34Z" finished-at="2017-06-23T18:00:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- userscreen.User_TC_001 -->
       <class name="loginscreen.Login_TC_001">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:loginscreen.Login_TC_001@306279ee]" name="setup" is-config="true" duration-ms="5723" started-at="2017-06-23T17:54:33Z" finished-at="2017-06-23T17:54:38Z">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:loginscreen.Login_TC_001@306279ee]" name="setup" is-config="true" duration-ms="6036" started-at="2017-06-23T17:59:44Z" finished-at="2017-06-23T17:59:50Z">
           <params>
             <param index="0">
               <value>
@@ -307,95 +307,95 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="TC_Login001()[pri:0, instance:loginscreen.Login_TC_001@306279ee]" name="TC_Login001" duration-ms="3722" started-at="2017-06-23T17:54:38Z" description="Verify user is unable to login with invalid information" finished-at="2017-06-23T17:54:42Z">
+        <test-method status="PASS" signature="TC_Login001()[pri:0, instance:loginscreen.Login_TC_001@306279ee]" name="TC_Login001" duration-ms="3358" started-at="2017-06-23T17:59:50Z" description="Verify user is unable to login with invalid information" finished-at="2017-06-23T17:59:54Z">
           <reporter-output>
             <line>
-              <![CDATA[2017-06-23 17:54:38,930 INFO  Login_TC_001 - Step 1: Open Centroid Webside
+              <![CDATA[2017-06-23 17:59:50,817 INFO  Login_TC_001 - Step 1: Open Centroid Webside
 ]]>
             </line>
             <line>
-              <![CDATA[2017-06-23 17:54:40,577 INFO  Login_TC_001 - Step 2: Enter valid email and password
+              <![CDATA[2017-06-23 17:59:52,354 INFO  Login_TC_001 - Step 2: Enter valid email and password
 ]]>
             </line>
             <line>
-              <![CDATA[2017-06-23 17:54:40,577 INFO  Login_TC_001 - Step 3: Click on 'Sign In' button
+              <![CDATA[2017-06-23 17:59:52,354 INFO  Login_TC_001 - Step 3: Click on 'Sign In' button
 ]]>
             </line>
             <line>
-              <![CDATA[2017-06-23 17:54:41,823 INFO  Login_TC_001 - VP: User is still on Signin Page
+              <![CDATA[2017-06-23 17:59:53,323 INFO  Login_TC_001 - VP: User is still on Signin Page
 ]]>
             </line>
             <line>
-              <![CDATA[2017-06-23 17:54:41,863 INFO  Login_TC_001 - ===PASSED===
+              <![CDATA[2017-06-23 17:59:53,370 INFO  Login_TC_001 - ===PASSED===
 ]]>
             </line>
             <line>
-              <![CDATA[2017-06-23 17:54:41,865 INFO  Login_TC_001 - VP: Error Message displays
+              <![CDATA[2017-06-23 17:59:53,371 INFO  Login_TC_001 - VP: Error Message displays
 ]]>
             </line>
             <line>
-              <![CDATA[2017-06-23 17:54:42,644 INFO  Login_TC_001 - ===PASSED===
+              <![CDATA[2017-06-23 17:59:54,168 INFO  Login_TC_001 - ===PASSED===
 ]]>
             </line>
           </reporter-output>
         </test-method> <!-- TC_Login001 -->
-        <test-method status="PASS" signature="TC_Login002()[pri:0, instance:loginscreen.Login_TC_001@306279ee]" name="TC_Login002" duration-ms="2558" started-at="2017-06-23T17:54:42Z" description="Verify user is able to login with valid information" finished-at="2017-06-23T17:54:45Z">
+        <test-method status="PASS" signature="TC_Login002()[pri:0, instance:loginscreen.Login_TC_001@306279ee]" name="TC_Login002" duration-ms="2290" started-at="2017-06-23T17:59:54Z" description="Verify user is able to login with valid information" finished-at="2017-06-23T17:59:56Z">
           <reporter-output>
             <line>
-              <![CDATA[2017-06-23 17:54:42,647 INFO  Login_TC_001 - Step 1: Open Centroid Webside
+              <![CDATA[2017-06-23 17:59:54,172 INFO  Login_TC_001 - Step 1: Open Centroid Webside
 ]]>
             </line>
             <line>
-              <![CDATA[2017-06-23 17:54:42,647 INFO  Login_TC_001 - Step 2: Enter valid email and password
+              <![CDATA[2017-06-23 17:59:54,172 INFO  Login_TC_001 - Step 2: Enter valid email and password
 ]]>
             </line>
             <line>
-              <![CDATA[2017-06-23 17:54:42,647 INFO  Login_TC_001 - Step 3: Click on 'Sign In' button
+              <![CDATA[2017-06-23 17:59:54,172 INFO  Login_TC_001 - Step 3: Click on 'Sign In' button
 ]]>
             </line>
             <line>
-              <![CDATA[2017-06-23 17:54:42,964 INFO  Login_TC_001 - VP: User is able to login successfully
+              <![CDATA[2017-06-23 17:59:54,481 INFO  Login_TC_001 - VP: User is able to login successfully
 ]]>
             </line>
             <line>
-              <![CDATA[2017-06-23 17:54:45,158 INFO  Login_TC_001 - ===PASSED===
+              <![CDATA[2017-06-23 17:59:56,406 INFO  Login_TC_001 - ===PASSED===
 ]]>
             </line>
             <line>
-              <![CDATA[2017-06-23 17:54:45,158 INFO  Login_TC_001 - VP: Successful Message displays
+              <![CDATA[2017-06-23 17:59:56,406 INFO  Login_TC_001 - VP: Successful Message displays
 ]]>
             </line>
             <line>
-              <![CDATA[2017-06-23 17:54:45,204 INFO  Login_TC_001 - ===PASSED===
+              <![CDATA[2017-06-23 17:59:56,460 INFO  Login_TC_001 - ===PASSED===
 ]]>
             </line>
           </reporter-output>
         </test-method> <!-- TC_Login002 -->
-        <test-method status="PASS" signature="TC_Login003()[pri:0, instance:loginscreen.Login_TC_001@306279ee]" name="TC_Login003" duration-ms="3146" started-at="2017-06-23T17:54:45Z" description="Verify user is able to logout" finished-at="2017-06-23T17:54:48Z">
+        <test-method status="PASS" signature="TC_Login003()[pri:0, instance:loginscreen.Login_TC_001@306279ee]" name="TC_Login003" duration-ms="3517" started-at="2017-06-23T17:59:56Z" description="Verify user is able to logout" finished-at="2017-06-23T17:59:59Z">
           <reporter-output>
             <line>
-              <![CDATA[2017-06-23 17:54:45,207 INFO  Login_TC_001 - Step 1: Open Centroid Webside
+              <![CDATA[2017-06-23 17:59:56,462 INFO  Login_TC_001 - Step 1: Open Centroid Webside
 ]]>
             </line>
             <line>
-              <![CDATA[2017-06-23 17:54:45,207 INFO  Login_TC_001 - Step 2: Sign in to system by valid email and password
+              <![CDATA[2017-06-23 17:59:56,462 INFO  Login_TC_001 - Step 2: Sign in to system by valid email and password
 ]]>
             </line>
             <line>
-              <![CDATA[2017-06-23 17:54:45,207 INFO  Login_TC_001 - Step 3: Sign Out
+              <![CDATA[2017-06-23 17:59:56,462 INFO  Login_TC_001 - Step 3: Sign Out
 ]]>
             </line>
             <line>
-              <![CDATA[2017-06-23 17:54:47,465 INFO  Login_TC_001 - VP: User is able to login successfully
+              <![CDATA[2017-06-23 17:59:58,851 INFO  Login_TC_001 - VP: Verify Sign in screen displays
 ]]>
             </line>
             <line>
-              <![CDATA[2017-06-23 17:54:48,351 INFO  Login_TC_001 - ===PASSED===
+              <![CDATA[2017-06-23 17:59:59,977 INFO  Login_TC_001 - ===PASSED===
 ]]>
             </line>
           </reporter-output>
         </test-method> <!-- TC_Login003 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:loginscreen.Login_TC_001@306279ee]" name="tearDown" is-config="true" duration-ms="559" started-at="2017-06-23T17:54:48Z" finished-at="2017-06-23T17:54:48Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:loginscreen.Login_TC_001@306279ee]" name="tearDown" is-config="true" duration-ms="630" started-at="2017-06-23T17:59:59Z" finished-at="2017-06-23T18:00:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
