@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Jun 22 14:30:39 GMT+07:00 2017</td>
+<td>Started on:</td><td>Fri Jun 23 17:52:52 GMT+07:00 2017</td>
 </tr>
-<tr><td>Total time:</td><td>25 seconds (25929 ms)</td>
+<tr><td>Total time:</td><td>33 seconds (33935 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,8 +67,8 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
@@ -76,113 +76,82 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='userscreen.User_TC_001.TC_Users001()'><b>TC_Users001</b><br>Test class: userscreen.User_TC_001<br>Test method: Verify User is able to create new users<br/>
-<a href="#Output-331122245" onClick='toggleBox("Output-331122245", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-2074658615" onClick='toggleBox("Output-2074658615", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-331122245" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-331122245">
-2017-06-22 14:30:45,423 INFO  User_TC_001 - Step 1: Open Centroid Webside
+<a href="#Output-2074658615" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2074658615">
+2017-06-23 17:52:58,638 INFO  User_TC_001 - Step 1: Open Centroid Webside
 <br/>
-2017-06-22 14:30:47,283 INFO  User_TC_001 - Step 2: Enter valid email and password
+2017-06-23 17:53:00,388 INFO  User_TC_001 - Step 2: Enter valid email and password
 <br/>
-2017-06-22 14:30:47,283 INFO  User_TC_001 - Step 3: Click on 'Sign In' button
+2017-06-23 17:53:00,388 INFO  User_TC_001 - Step 3: Click on 'Sign In' button
 <br/>
-2017-06-22 14:30:48,825 INFO  User_TC_001 - Step 4: Enter Users screen
+2017-06-23 17:53:01,575 INFO  User_TC_001 - Step 4: Enter Users screen
 <br/>
-2017-06-22 14:30:54,267 INFO  User_TC_001 - Step 5: Create new user with valid information
+2017-06-23 17:53:06,850 INFO  User_TC_001 - Step 5: Create new user with valid information
+<br/>
+2017-06-23 17:53:10,582 INFO  User_TC_001 - VP: Successful message displays
+<br/>
+2017-06-23 17:53:11,974 INFO  User_TC_001 - ===PASSED===
+<br/>
+2017-06-23 17:53:11,975 INFO  User_TC_001 - VP: Check account is created
+<br/>
+2017-06-23 17:53:14,442 INFO  User_TC_001 - ===PASSED===
 <br/>
 </div>
 </td>
-<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //a[text()=&apos;New User&apos;] (tried for 8 second(s) with 500 MILLISECONDS interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
-	at commons.AutomationAction.waitForControl(AutomationAction.java:139)
-	at commons.AutomationAction.click(AutomationAction.java:38)
-	at pages.UsersPage.createNewUser(UsersPage.java:17)
-	at userscreen.User_TC_001.TC_Users001(User_TC_001.java:52)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:771)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1032)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //a[text()=&apos;New User&apos;]
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
-System info: host: &apos;THANHTRITRAN&apos;, ip: &apos;192.168.1.40&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
-Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:883)
-	at java.util.Optional.orElseThrow(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
-	... 28 more
-</pre></div><a href='#' onClick='toggleBox("stack-trace331122245", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace331122245'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //a[text()=&apos;New User&apos;] (tried for 8 second(s) with 500 MILLISECONDS interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
-	at commons.AutomationAction.waitForControl(AutomationAction.java:139)
-	at commons.AutomationAction.click(AutomationAction.java:38)
-	at pages.UsersPage.createNewUser(UsersPage.java:17)
-	at userscreen.User_TC_001.TC_Users001(User_TC_001.java:52)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:771)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1032)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //a[text()=&apos;New User&apos;]
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
-System info: host: &apos;THANHTRITRAN&apos;, ip: &apos;192.168.1.40&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
-Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:883)
-	at java.util.Optional.orElseThrow(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
-	... 28 more
-</pre></div></td>
-<td>19</td>
+<td></td>
+<td>15</td>
+<td>userscreen.User_TC_001@4d1b0d2a</td></tr>
+<tr>
+<td title='userscreen.User_TC_001.TC_Users002()'><b>TC_Users002</b><br>Test class: userscreen.User_TC_001<br>Test method: Verify User is able to search with any information<br/>
+<a href="#Output-554868511" onClick='toggleBox("Output-554868511", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-554868511" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-554868511">
+2017-06-23 17:53:14,447 INFO  User_TC_001 - Step 1: Open Centroid Webside
+<br/>
+2017-06-23 17:53:14,447 INFO  User_TC_001 - Step 2: Enter valid email and password
+<br/>
+2017-06-23 17:53:14,447 INFO  User_TC_001 - Step 3: Click on 'Sign In' button
+<br/>
+2017-06-23 17:53:14,447 INFO  User_TC_001 - Step 4: Enter Users screen
+<br/>
+2017-06-23 17:53:14,447 INFO  User_TC_001 - Step 5: Serach any user
+<br/>
+2017-06-23 17:53:16,670 INFO  User_TC_001 - VP: Check user data displays correctly
+<br/>
+2017-06-23 17:53:19,025 INFO  User_TC_001 - ===PASSED===
+<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>userscreen.User_TC_001@4d1b0d2a</td></tr>
+<tr>
+<td title='userscreen.User_TC_001.TC_Users003()'><b>TC_Users003</b><br>Test class: userscreen.User_TC_001<br>Test method: Verify User is able to delete an user<br/>
+<a href="#Output-1100399456" onClick='toggleBox("Output-1100399456", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1100399456" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1100399456">
+2017-06-23 17:53:19,028 INFO  User_TC_001 - Step 1: Open Centroid Webside
+<br/>
+2017-06-23 17:53:19,028 INFO  User_TC_001 - Step 2: Enter valid email and password
+<br/>
+2017-06-23 17:53:19,028 INFO  User_TC_001 - Step 3: Click on 'Sign In' button
+<br/>
+2017-06-23 17:53:19,029 INFO  User_TC_001 - Step 4: Enter Users screen
+<br/>
+2017-06-23 17:53:19,029 INFO  User_TC_001 - Step 5: Delete any user
+<br/>
+2017-06-23 17:53:24,068 INFO  User_TC_001 - VP: Check user data is not exist in user table
+<br/>
+2017-06-23 17:53:26,345 INFO  User_TC_001 - ===PASSED===
+<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
 <td>userscreen.User_TC_001@4d1b0d2a</td></tr>
 </table><p>
 </body>

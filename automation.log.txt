@@ -1,5 +1,42 @@
-2017-06-22 14:30:45,423 INFO  [userscreen.User_TC_001] - Step 1: Open Centroid Webside
-2017-06-22 14:30:47,283 INFO  [userscreen.User_TC_001] - Step 2: Enter valid email and password
-2017-06-22 14:30:47,283 INFO  [userscreen.User_TC_001] - Step 3: Click on 'Sign In' button
-2017-06-22 14:30:48,825 INFO  [userscreen.User_TC_001] - Step 4: Enter Users screen
-2017-06-22 14:30:54,267 INFO  [userscreen.User_TC_001] - Step 5: Create new user with valid information
+2017-06-23 17:54:38,930 INFO  [loginscreen.Login_TC_001] - Step 1: Open Centroid Webside
+2017-06-23 17:54:40,577 INFO  [loginscreen.Login_TC_001] - Step 2: Enter valid email and password
+2017-06-23 17:54:40,577 INFO  [loginscreen.Login_TC_001] - Step 3: Click on 'Sign In' button
+2017-06-23 17:54:41,823 INFO  [loginscreen.Login_TC_001] - VP: User is still on Signin Page
+2017-06-23 17:54:41,863 INFO  [loginscreen.Login_TC_001] - ===PASSED===
+2017-06-23 17:54:41,865 INFO  [loginscreen.Login_TC_001] - VP: Error Message displays
+2017-06-23 17:54:42,644 INFO  [loginscreen.Login_TC_001] - ===PASSED===
+2017-06-23 17:54:42,647 INFO  [loginscreen.Login_TC_001] - Step 1: Open Centroid Webside
+2017-06-23 17:54:42,647 INFO  [loginscreen.Login_TC_001] - Step 2: Enter valid email and password
+2017-06-23 17:54:42,647 INFO  [loginscreen.Login_TC_001] - Step 3: Click on 'Sign In' button
+2017-06-23 17:54:42,964 INFO  [loginscreen.Login_TC_001] - VP: User is able to login successfully
+2017-06-23 17:54:45,158 INFO  [loginscreen.Login_TC_001] - ===PASSED===
+2017-06-23 17:54:45,158 INFO  [loginscreen.Login_TC_001] - VP: Successful Message displays
+2017-06-23 17:54:45,204 INFO  [loginscreen.Login_TC_001] - ===PASSED===
+2017-06-23 17:54:45,207 INFO  [loginscreen.Login_TC_001] - Step 1: Open Centroid Webside
+2017-06-23 17:54:45,207 INFO  [loginscreen.Login_TC_001] - Step 2: Sign in to system by valid email and password
+2017-06-23 17:54:45,207 INFO  [loginscreen.Login_TC_001] - Step 3: Sign Out
+2017-06-23 17:54:47,465 INFO  [loginscreen.Login_TC_001] - VP: User is able to login successfully
+2017-06-23 17:54:48,351 INFO  [loginscreen.Login_TC_001] - ===PASSED===
+2017-06-23 17:54:54,238 INFO  [userscreen.User_TC_001] - Step 1: Open Centroid Webside
+2017-06-23 17:54:56,062 INFO  [userscreen.User_TC_001] - Step 2: Enter valid email and password
+2017-06-23 17:54:56,063 INFO  [userscreen.User_TC_001] - Step 3: Click on 'Sign In' button
+2017-06-23 17:54:57,036 INFO  [userscreen.User_TC_001] - Step 4: Enter Users screen
+2017-06-23 17:55:02,309 INFO  [userscreen.User_TC_001] - Step 5: Create new user with valid information
+2017-06-23 17:55:06,839 INFO  [userscreen.User_TC_001] - VP: Successful message displays
+2017-06-23 17:55:08,210 INFO  [userscreen.User_TC_001] - ===PASSED===
+2017-06-23 17:55:08,210 INFO  [userscreen.User_TC_001] - VP: Check account is created
+2017-06-23 17:55:10,671 INFO  [userscreen.User_TC_001] - ===PASSED===
+2017-06-23 17:55:10,673 INFO  [userscreen.User_TC_001] - Step 1: Open Centroid Webside
+2017-06-23 17:55:10,673 INFO  [userscreen.User_TC_001] - Step 2: Enter valid email and password
+2017-06-23 17:55:10,673 INFO  [userscreen.User_TC_001] - Step 3: Click on 'Sign In' button
+2017-06-23 17:55:10,673 INFO  [userscreen.User_TC_001] - Step 4: Enter Users screen
+2017-06-23 17:55:10,673 INFO  [userscreen.User_TC_001] - Step 5: Serach any user
+2017-06-23 17:55:12,864 INFO  [userscreen.User_TC_001] - VP: Check user data displays correctly
+2017-06-23 17:55:15,123 INFO  [userscreen.User_TC_001] - ===PASSED===
+2017-06-23 17:55:15,126 INFO  [userscreen.User_TC_001] - Step 1: Open Centroid Webside
+2017-06-23 17:55:15,126 INFO  [userscreen.User_TC_001] - Step 2: Enter valid email and password
+2017-06-23 17:55:15,126 INFO  [userscreen.User_TC_001] - Step 3: Click on 'Sign In' button
+2017-06-23 17:55:15,126 INFO  [userscreen.User_TC_001] - Step 4: Enter Users screen
+2017-06-23 17:55:15,126 INFO  [userscreen.User_TC_001] - Step 5: Delete any user
+2017-06-23 17:55:20,134 INFO  [userscreen.User_TC_001] - VP: Check user data is not exist in user table
+2017-06-23 17:55:22,441 INFO  [userscreen.User_TC_001] - ===PASSED===

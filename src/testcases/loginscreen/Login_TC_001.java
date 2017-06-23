@@ -69,7 +69,7 @@ public void TC_Login003 () {
 		log.info("Step 3: Sign Out");
 		homePageObject.logout(driver);
 		
-		log.info("VP: User is able to login successfully");
+		log.info("VP: Verify Sign in screen displays");
 		verifyTrue(loginPageObject.checkSigninPageDisplay());
 		
   }

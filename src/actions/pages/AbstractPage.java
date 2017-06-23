@@ -14,7 +14,7 @@ public class AbstractPage extends commons.AutomationAction {
 	{
 		for (int i = 0; i < 2; i++) {
 			if (i == 0) {
-		sleep(2);
+		sleep(3);
 		click(driver, By.xpath(String.format(Centroid.AbstractPage.menuItems, item)));
 		sleep(2);
 			} else
@@ -34,6 +34,18 @@ public class AbstractPage extends commons.AutomationAction {
 		
 		return (findDynamicControl(driver, Centroid.AbstractPage.titlePage, pages)).isDisplayed();
 	}
+	
+	
+	// Check successful message display correctly
+	/*
+	 * return true/false
+	 * @parameter display message
+	 */
+	public boolean checkSuccessfulMessage(WebDriver driver, String message)
+	{
+		return findDynamicControl(driver, Centroid.AbstractPage.successfulMessage, message).isDisplayed();
+	}
+	
 	
 	/*
 	 * Logout

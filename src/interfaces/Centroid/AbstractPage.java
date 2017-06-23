@@ -8,7 +8,7 @@ public class AbstractPage {
 	
 	//Dynamic control
 	public static String menuItems = ("//a[@href='#']/span[text()='%s']");
-	public static String subMenuItems = ("//span[text()='%s']");
+	public static String subMenuItems = ("//a[contains(@href,'http')]/span[text()='%s']");
 	public static String titlePage = ("//h1[contains(text(),'%s')]");
-
+	public static String successfulMessage = ("//div[contains(@class,'alert') and contains(.,'%s')]");
 }

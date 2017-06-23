@@ -18,9 +18,11 @@
 		<phone>0932468040</phone>	
 		<country>Select country</country>
 		<timeZone>Select timezone</timeZone>	
-		<status>Activate</status>	
-		<roles>+ Admin</roles>
+		<status>Inactivate</status>	
+		<roles>API User</roles>
 		<group></group>	
+		<createSuccessfulMessage>User successfully created.</createSuccessfulMessage>
+		<searchData>tungnguyen259@gmail.com</searchData>
 	</testmodule>
 	
 </testmodules>

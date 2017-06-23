@@ -30,6 +30,8 @@ public class User_TC_001 extends AbstractTest{
 	  status = CommonActions.getCommonObject().getDataset("TC_Users", "status");
 	  roles = CommonActions.getCommonObject().getDataset("TC_Users", "roles");
 	  group = CommonActions.getCommonObject().getDataset("TC_Users", "group");
+	  createSuccessfulMessage = CommonActions.getCommonObject().getDataset("TC_Users", "createSuccessfulMessage");
+	  searchData = CommonActions.getCommonObject().getDataset("TC_Users", "searchData");
   }
   
   @Test (description = "Verify User is able to create new users")
@@ -53,10 +55,41 @@ public void TC_Users001 () {
 	usersPageObject.createNewUser(firstName, lastName, email, userName, password, passwordConfirmation, phone, country, timeZone, status, roles, group);
 	
 	log.info("VP: Successful message displays");
-
-	log.info("VP: Account is created");
+	verifyTrue(	usersPageObject.checkSuccessfulMessage(driver, createSuccessfulMessage));
+	
+	log.info("VP: Check account is created");
+	verifyTrue(	usersPageObject.checkUserHasJustCreated(firstName, lastName, email, status, roles));
 	
 }
+  
+  @Test (description = "Verify User is able to search with any information")
+public void TC_Users002 () {
+	  
+	log.info("Step 1: Open Centroid Webside");
+	log.info("Step 2: Enter valid email and password");
+	log.info("Step 3: Click on 'Sign In' button");	
+	log.info("Step 4: Enter Users screen");
+	log.info("Step 5: Serach any user");	
+	usersPageObject.searchUser(searchData);
+	
+	log.info("VP: Check user data displays correctly");
+	verifyTrue(usersPageObject.checkSearchUser(searchData));
+}
+  
+  @Test (description = "Verify User is able to delete an user")
+public void TC_Users003 () {
+	  
+	log.info("Step 1: Open Centroid Webside");
+	log.info("Step 2: Enter valid email and password");
+	log.info("Step 3: Click on 'Sign In' button");	
+	log.info("Step 4: Enter Users screen");
+	log.info("Step 5: Delete any user");
+	usersPageObject.deleteUser(email);
+	
+	log.info("VP: Check user data is not exist in user table");
+	verifyTrue(usersPageObject.checkUserIsNotExisted(email));	
+}
+  
 	@AfterClass(alwaysRun = true)
 	public void tearDown() {
 		closeBrowser(driver);
@@ -66,6 +99,8 @@ private WebDriver driver;
 private LoginPage loginPageObject;
 private HomePage homePageObject;
 private UsersPage usersPageObject;
+private String searchData;
+private String createSuccessfulMessage;
 private String firstName;
 private String lastName;
 private String email;

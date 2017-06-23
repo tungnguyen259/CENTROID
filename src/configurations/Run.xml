@@ -10,6 +10,7 @@
 	<test name="Test">
 		<classes>
 		<class name="loginscreen.Login_TC_001" />	
+				<class name="userscreen.User_TC_001" />
 		</classes>
 	</test>
 </suite>
