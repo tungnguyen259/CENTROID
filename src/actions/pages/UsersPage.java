@@ -36,14 +36,13 @@ public class UsersPage extends AbstractPage{
 		type(driver, Centroid.UsersPage.txtLastName, lastName);
 		type(driver, Centroid.UsersPage.txtEmail, email);
 		type(driver, Centroid.UsersPage.txtUserName, userName);
-		type(driver, Centroid.UsersPage.txtPassword, password);
-		type(driver, Centroid.UsersPage.txtPasswordConfirmation, passwordConfirmation);
+		if (password!=null) type(driver, Centroid.UsersPage.txtPassword, password);
+		if (passwordConfirmation!=null) type(driver, Centroid.UsersPage.txtPasswordConfirmation, passwordConfirmation);
 		type(driver, Centroid.UsersPage.txtPhone, phone);
 		
 		//selectDropdownItem(driver, Centroid.UsersPage.cbbCountry, Centroid.UsersPage.countryItem, country);
 		selectDropdownItem(driver, Centroid.UsersPage.cbbStatus, Centroid.UsersPage.statusItem, status);
 		selectDropdownItem(driver, Centroid.UsersPage.cbbTimeZone, Centroid.UsersPage.timeZoneItem, timeZone);
-
 	}
 	
 	/*
@@ -53,7 +52,7 @@ public class UsersPage extends AbstractPage{
 	public void selectNewUserRoles (String roles)
 	{
 		click(driver, Centroid.UsersPage.tabRoles);
-		findDynamicControl(driver, Centroid.UsersPage.rolesItem, "Guest").click();
+		//findDynamicControl(driver, Centroid.UsersPage.rolesItem, "Guest").click();
 		findDynamicControl(driver, Centroid.UsersPage.rolesItem, roles).click();
 	}
 	
@@ -71,7 +70,7 @@ public class UsersPage extends AbstractPage{
 	 * Check user has just created
 	 */
 	
-	public boolean checkUserHasJustCreated (String firstName, String lastName, String email, String status, String roles)
+	public boolean checkUserData (String firstName, String lastName, String email, String status, String roles)
 	{
 			boolean a = false, b = false, c = false, d = false, e = false;
 			searchUser(email);
@@ -167,6 +166,83 @@ public class UsersPage extends AbstractPage{
 	{
 		searchUser(email);
 		return findElement(driver, Centroid.UsersPage.noRecordRow).isDisplayed();
+	}
+	
+	/*
+	 * enter infor and select filter 
+	 * No record table displays
+	 */
+	public void selectFilter(String firstName, String lastName, String email, String status, String roles)
+	{
+		if (firstName!= null) type(driver, Centroid.UsersPage.txtFirstNameFilter, firstName);
+		if (lastName!= null) type(driver, Centroid.UsersPage.txtLastNameFilter, lastName);
+		if (email!= null) type(driver, Centroid.UsersPage.txtEmailFilter, email);
+		if (status!= null) selectDropdownItem(driver, Centroid.UsersPage.cbbStatusFilter, Centroid.UsersPage.statusFilterItem, status);
+		if (roles!= null) selectDropdownItem(driver, Centroid.UsersPage.cbbRolesFilter, Centroid.UsersPage.rolesFilterItem, roles);
+		click(driver, Centroid.UsersPage.btnFilter);
+	}
+	
+	
+	/*
+	 * Check user has just created
+	 */
+	
+	public boolean checkFilterTable (String firstName, String lastName, String email, String status, String roles)
+	{
+			boolean a = false, b = false, c = false, d = false, e = false;
+			searchUser(email);
+			WebElement tableElement = findElement(driver, Centroid.UsersPage.tbUsers);
+			List <WebElement> rows = tableElement.findElements(By.xpath("tbody/tr")); 
+			List <WebElement> colums = tableElement.findElements(By.xpath("thead/tr/th"));
+			for (int i=1; i<=rows.size(); i++)
+			{
+				for (int j=3; j<colums.size()-1;j++)
+				{
+					if(j==3) a = findElement(driver, By.xpath(String.format(Centroid.UsersPage.tableCell, i, j))).getText().contains(firstName);
+					if(j==4) b = findElement(driver, By.xpath(String.format(Centroid.UsersPage.tableCell, i, j))).getText().contains(lastName);
+					if(j==5) c = findElement(driver, By.xpath(String.format(Centroid.UsersPage.tableCell, i, j))).getText().contains(email);
+					if(j==6) d = findElement(driver, By.xpath(String.format(Centroid.UsersPage.tableCell, i, j))).getText().contains(status);
+					if(j==7) e = findElement(driver, By.xpath(String.format(Centroid.UsersPage.rolesCell, i, j, roles))).isDisplayed();
+				//if (rows.get(i).getText().contains(firstName)) break;
+				}
+				if ((a && b && c && d && e)==true) break;
+			}
+		
+		return (a && b && c && d && e);
+	}
+	
+	/*
+	 * Edit user
+	 */
+	
+	public void editUser(String firstName, String lastName, String userName, String email, String phone, String country, String timeZone, String status, String roles)
+	{
+	click(driver, Centroid.UsersPage.btnEdit);
+	selectEditPageButtons("Data");
+	type(driver, Centroid.UsersPage.txtFirstName, firstName);
+	type(driver, Centroid.UsersPage.txtLastName, lastName);
+	type(driver, Centroid.UsersPage.txtEmail, email);
+	type(driver, Centroid.UsersPage.txtUserName, userName);
+	type(driver, Centroid.UsersPage.txtPhone, phone);
+
+	selectDropdownItem(driver, Centroid.UsersPage.cbbEditStatus, Centroid.UsersPage.editStatusItem, status);
+	//selectDropdownItem(driver, Centroid.UsersPage.cbbCountry, Centroid.UsersPage.countryItem, country);
+	//selectDropdownItem(driver, Centroid.UsersPage.cbbTimeZone, Centroid.UsersPage.timeZoneItem, timeZone);
+	selectNewUserRoles(roles);
+	click(driver, Centroid.UsersPage.btnUpdate);
+	}
+	
+	/*
+	 * Edit user
+	 */
+	
+	public void selectEditPageButtons(String button)
+	{
+		if (button.equals("Update")) click(driver, Centroid.UsersPage.btnUpdate);
+		if (button.equals("Cancel")) click(driver, Centroid.UsersPage.btnCancel);
+		if (button.equals("Reset")) click(driver, Centroid.UsersPage.btnReset);
+		if (button.equals("Data")) click(driver, Centroid.UsersPage.tabData);
+		if (button.equals("Roles")) click(driver, Centroid.UsersPage.tabRoles);
 	}
 	
 	private WebDriver driver;

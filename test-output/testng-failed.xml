@@ -6,7 +6,7 @@
     <classes>
       <class name="userscreen.User_TC_001">
         <methods>
-          <include name="TC_Users003"/>
+          <include name="TC_Users004"/>
           <include name="tearDown"/>
           <include name="setup"/>
         </methods>

@@ -23,6 +23,17 @@
 		<group></group>	
 		<createSuccessfulMessage>User successfully created.</createSuccessfulMessage>
 		<searchData>tungnguyen259@gmail.com</searchData>
+		<updateSuccessfulMessage>User successfully updated.</updateSuccessfulMessage>
+		<newFirstName>NewTung</newFirstName>
+		<newLastName>NewNguyen</newLastName>
+		<newEmail>NewEmail@gmail.com</newEmail>
+		<newUserName>NewTungNguyen</newUserName>	
+		<newPhone>093246000</newPhone>	
+		<newCountry>Select country</newCountry>
+		<newTimeZone>Select timezone</newTimeZone>	
+		<newStatus>Activate</newStatus>	
+		<newRoles>Mobile User</newRoles>
+		
 	</testmodule>
 	
 </testmodules>
