@@ -233,7 +233,7 @@ public class UsersPage extends AbstractPage{
 	}
 	
 	/*
-	 * Edit user
+	 * Select buttons on edit page
 	 */
 	
 	public void selectEditPageButtons(String button)
