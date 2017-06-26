@@ -31,8 +31,7 @@ public class User_TC_001 extends AbstractTest{
 	  roles = CommonActions.getCommonObject().getDataset("TC_Users", "roles");
 	  group = CommonActions.getCommonObject().getDataset("TC_Users", "group");
 	  createSuccessfulMessage = CommonActions.getCommonObject().getDataset("TC_Users", "createSuccessfulMessage");
-	  searchData = CommonActions.getCommonObject().getDataset("TC_Users", "searchData");
-	  
+	  searchData = CommonActions.getCommonObject().getDataset("TC_Users", "searchData");  
 	  newFirstName = CommonActions.getCommonObject().getDataset("TC_Users", "newFirstName");
 	  newLastName = CommonActions.getCommonObject().getDataset("TC_Users", "newLastName");
 	  newEmail = CommonActions.getCommonObject().getDataset("TC_Users", "newEmail");

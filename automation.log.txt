@@ -1,5 +1,59 @@
-2017-06-26 13:22:45,726 INFO  [userscreen.User_TC_001] - Step 1: Open Centroid Webside
-2017-06-26 13:22:47,416 INFO  [userscreen.User_TC_001] - Step 2: Enter valid email and password
-2017-06-26 13:22:47,416 INFO  [userscreen.User_TC_001] - Step 3: Click on 'Sign In' button
-2017-06-26 13:22:48,519 INFO  [userscreen.User_TC_001] - Step 4: Enter Users screen
-2017-06-26 13:22:53,815 INFO  [userscreen.User_TC_001] - Step 5: Create new user with valid information
+2017-06-26 13:38:21,440 INFO  [loginscreen.Login_TC_001] - Step 1: Open Centroid Webside
+2017-06-26 13:38:25,135 INFO  [loginscreen.Login_TC_001] - Step 2: Enter valid email and password
+2017-06-26 13:38:25,135 INFO  [loginscreen.Login_TC_001] - Step 3: Click on 'Sign In' button
+2017-06-26 13:38:26,846 INFO  [loginscreen.Login_TC_001] - VP: User is still on Signin Page
+2017-06-26 13:38:26,922 INFO  [loginscreen.Login_TC_001] - ===PASSED===
+2017-06-26 13:38:26,924 INFO  [loginscreen.Login_TC_001] - VP: Error Message displays
+2017-06-26 13:38:26,975 INFO  [loginscreen.Login_TC_001] - ===PASSED===
+2017-06-26 13:38:26,978 INFO  [loginscreen.Login_TC_001] - Step 1: Open Centroid Webside
+2017-06-26 13:38:26,978 INFO  [loginscreen.Login_TC_001] - Step 2: Enter valid email and password
+2017-06-26 13:38:26,978 INFO  [loginscreen.Login_TC_001] - Step 3: Click on 'Sign In' button
+2017-06-26 13:38:34,521 INFO  [loginscreen.Login_TC_001] - VP: User is able to login successfully
+2017-06-26 13:38:34,594 INFO  [loginscreen.Login_TC_001] - ===PASSED===
+2017-06-26 13:38:34,594 INFO  [loginscreen.Login_TC_001] - VP: Successful Message displays
+2017-06-26 13:38:34,646 INFO  [loginscreen.Login_TC_001] - ===PASSED===
+2017-06-26 13:38:34,647 INFO  [loginscreen.Login_TC_001] - Step 1: Open Centroid Webside
+2017-06-26 13:38:34,647 INFO  [loginscreen.Login_TC_001] - Step 2: Sign in to system by valid email and password
+2017-06-26 13:38:34,648 INFO  [loginscreen.Login_TC_001] - Step 3: Sign Out
+2017-06-26 13:38:37,920 INFO  [loginscreen.Login_TC_001] - VP: Verify Sign in screen displays
+2017-06-26 13:38:37,964 INFO  [loginscreen.Login_TC_001] - ===PASSED===
+2017-06-26 13:38:42,319 INFO  [userscreen.User_TC_001] - Step 1: Open Centroid Webside
+2017-06-26 13:38:46,282 INFO  [userscreen.User_TC_001] - Step 2: Enter valid email and password
+2017-06-26 13:38:46,282 INFO  [userscreen.User_TC_001] - Step 3: Click on 'Sign In' button
+2017-06-26 13:38:53,586 INFO  [userscreen.User_TC_001] - Step 4: Enter Users screen
+2017-06-26 13:39:00,152 INFO  [userscreen.User_TC_001] - Step 5: Create new user with valid information
+2017-06-26 13:39:05,571 INFO  [userscreen.User_TC_001] - VP: Successful message displays
+2017-06-26 13:39:05,636 INFO  [userscreen.User_TC_001] - ===PASSED===
+2017-06-26 13:39:05,636 INFO  [userscreen.User_TC_001] - VP: Check account is created
+2017-06-26 13:39:08,505 INFO  [userscreen.User_TC_001] - ===PASSED===
+2017-06-26 13:39:08,506 INFO  [userscreen.User_TC_001] - Step 1: Open Centroid Webside
+2017-06-26 13:39:08,506 INFO  [userscreen.User_TC_001] - Step 2: Enter valid email and password
+2017-06-26 13:39:08,506 INFO  [userscreen.User_TC_001] - Step 3: Click on 'Sign In' button
+2017-06-26 13:39:08,506 INFO  [userscreen.User_TC_001] - Step 4: Enter Users screen
+2017-06-26 13:39:08,507 INFO  [userscreen.User_TC_001] - Step 5: Serach any user
+2017-06-26 13:39:10,719 INFO  [userscreen.User_TC_001] - VP: Check user data displays correctly
+2017-06-26 13:39:13,124 INFO  [userscreen.User_TC_001] - ===PASSED===
+2017-06-26 13:39:13,126 INFO  [userscreen.User_TC_001] - Step 1: Open Centroid Webside
+2017-06-26 13:39:13,126 INFO  [userscreen.User_TC_001] - Step 2: Enter valid email and password
+2017-06-26 13:39:13,126 INFO  [userscreen.User_TC_001] - Step 3: Click on 'Sign In' button
+2017-06-26 13:39:13,127 INFO  [userscreen.User_TC_001] - Step 4: Enter Users screen
+2017-06-26 13:39:13,127 INFO  [userscreen.User_TC_001] - Step 5: Edit any user
+2017-06-26 13:39:17,066 INFO  [userscreen.User_TC_001] - VP: Check Successful Message
+2017-06-26 13:39:17,121 INFO  [userscreen.User_TC_001] - ===PASSED===
+2017-06-26 13:39:17,926 INFO  [userscreen.User_TC_001] - VP: Check user data after editing
+2017-06-26 13:39:20,548 INFO  [userscreen.User_TC_001] - ===PASSED===
+2017-06-26 13:39:20,548 INFO  [userscreen.User_TC_001] - Step 1: Open Centroid Webside
+2017-06-26 13:39:20,548 INFO  [userscreen.User_TC_001] - Step 2: Enter valid email and password
+2017-06-26 13:39:20,549 INFO  [userscreen.User_TC_001] - Step 3: Click on 'Sign In' button
+2017-06-26 13:39:20,549 INFO  [userscreen.User_TC_001] - Step 4: Enter Users screen
+2017-06-26 13:39:20,549 INFO  [userscreen.User_TC_001] - Step 5: Enter data into filter field and click on Filter
+2017-06-26 13:39:21,912 INFO  [userscreen.User_TC_001] - VP: Check data filter correctly
+2017-06-26 13:39:24,557 INFO  [userscreen.User_TC_001] - ===PASSED===
+2017-06-26 13:39:24,558 INFO  [userscreen.User_TC_001] - Step 1: Open Centroid Webside
+2017-06-26 13:39:24,558 INFO  [userscreen.User_TC_001] - Step 2: Enter valid email and password
+2017-06-26 13:39:24,558 INFO  [userscreen.User_TC_001] - Step 3: Click on 'Sign In' button
+2017-06-26 13:39:24,558 INFO  [userscreen.User_TC_001] - Step 4: Enter Users screen
+2017-06-26 13:39:24,559 INFO  [userscreen.User_TC_001] - Step 5: Delete any user
+2017-06-26 13:39:30,976 INFO  [userscreen.User_TC_001] - VP: Check user data is not exist in user table
+2017-06-26 13:39:33,282 INFO  [userscreen.User_TC_001] - ===PASSED===
+2017-06-26 13:39:33,282 INFO  [userscreen.User_TC_001] - Post Condition: Logout
